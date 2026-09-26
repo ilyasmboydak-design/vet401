@@ -6,12 +6,6 @@
         "yas": "4 Yaşında",
         "kesin_tanis": "Traumatik Retikuloperikarditis (TRP)",
         "sikayet": "Bizim inek iki gündür aniden sütten kesildi, yeme yanaşmıyor. Gerdanının altında ve göğsünün altında hamur gibi çöküntülü bir şişlik birikti, sırtını kamburlaştırıp hiç kımıldamadan duruyor.",
-        "makroskopik_gorsel": {
-            "fig": "Figure 1.2-1",
-            "title": "Gerdan ve Göğüs Altı Ödemi & Jugular Staz",
-            "file": "gorseller/figure_1_2_1.jpg",
-            "desc": "Traumatik Retikuloperikarditis olgusunda perikardiyal basınç ve venöz drenaj bozukluğuna bağlı gerdan ödemi ve belirgin venöz dolgunluk."
-        },
         "categories": {
             "RASYON_YEM": {
                 "name": "Rasyon & Yemleme Öyküsü",
@@ -47,7 +41,7 @@
                     "önceki",
                     "sağlık"
                 ],
-                "content": "Geçen laktasyonda Subklinik Rumen Asidozu (SARA) öyküsü mevcut. Yabancı cisim mıknatısı (ferroskop) atılmamış."
+                "content": "Geçen laktasyonda Subklinik Rumen Asidozu (SARA) öyküsü mevcut. Mıknatısı atılmamış."
             },
             "ISTAH_DURUMU": {
                 "name": "İştah & Yutma / Çiğneme Durumu",
@@ -205,12 +199,6 @@
         "yas": "5 Yaşında",
         "kesin_tanis": "Vegetatif Valvüler Endokarditis (Triküspit Kapak)",
         "sikayet": "Bizim süt ineği haftalardır bir türlü toparlanamadı, günden güne eriyor. Ateşi bir yükselip bir düşüyor, bacaklarında ödem başladı ve iki adım atınca hemen nefes nefese kalıyor.",
-        "makroskopik_gorsel": {
-            "fig": "Figure 1.2-1",
-            "title": "Triküspit Kapak Vegetasyonları & Venöz Dolgunluk",
-            "file": "gorseller/figure_1_2_1.jpg",
-            "desc": "Triküspit kapak üzerinde bakteriyel trombotik ve vegetatif üremeler; venöz staz."
-        },
         "categories": {
             "RASYON_YEM": {
                 "name": "Rasyon & Yemleme Öyküsü",
