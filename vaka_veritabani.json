@@ -9,7 +9,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.2-1",
       "title": "Gerdan ve Göğüs Altı Ödemi & Jugular Staz",
-      "file": "gorseller/figure_1_2_1.png",
+      "file": "figure_1_2_1",
       "desc": "Traumatik Retikuloperikarditis olgusunda perikardiyal basınç ve venöz drenaj bozukluğuna bağlı gerdan ödemi ve belirgin venöz dolgunluk."
     },
     "categories": {
@@ -349,7 +349,6 @@
     "canli_agirlik": "580 kg",
     "yas": "3 Yaşında",
     "kesin_tanis": "Cor Pulmonale (Yüksek Dağ Hastalığı / Brisket Disease)",
-    "sikayt": "Yüksek rakımlı meradan getirildikten sonra aşırı göğüs altı ve brisket ödemi, çabuk yorulma, morarma (siyanoz).",
     "categories": {
       "RASYON_YEM": {
         "name": "Rasyon & Yemleme Öyküsü",
@@ -476,7 +475,8 @@
       "kesin_tani": "Cor Pulmonale (Yüksek Dağ Hastalığı / Brisket Disease)",
       "ayirici_tani": "TRP (Fibrinojen ve lökosit normaldir, perikardiyosentez sterildir), Valvüler Endokarditis (Ateş ve üfürüm yoktur).",
       "tedavi_protokolu": "Hayvanın derhal deniz seviyesine (düşük rakıma) nakledilmesi ve oksijen tedavisi. Furosemid (1-2 mg/kg İM) diüretik sağaltım. Düşük sodyumlu rasyon."
-    }
+    },
+    "sikayet": "Yüksek rakımlı meradan getirildikten sonra aşırı güçsüzlük, gerdan ve alt göğüste soğuk ödem, morarmış mukozalar (siyanoz), çabuk yorulma ve karında sıvı birikimi (asites)."
   },
   "Vaka D (Yiğit)": {
     "kod": "VAKA_D",
@@ -488,7 +488,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.2-1",
       "title": "Akciğer Embolisi & Hemoptizi",
-      "file": "gorseller/bovine_cvc_thrombus.png",
+      "file": "bovine_cvc_thrombus",
       "desc": "Kaudal vena kava trombozunda karaciğer apsesinden köken alan pıhtının akciğer arterlerini tıkaması ve hemoptizi."
     },
     "categories": {
@@ -628,7 +628,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.2-11",
       "title": "Dairesel Gri-Beyaz Kireçimsi Trikofiti Lezyonları",
-      "file": "gorseller/figure_1_2_11.png",
+      "file": "figure_1_2_11",
       "desc": "Baş ve göz çevresinde dairesel, kepekli kireçimsi kabuklanma ve alopezi."
     },
     "categories": {
@@ -734,7 +734,7 @@
         "gorsel": {
           "fig": "Figure 1.2-11",
           "title": "Mikroskopik Mantar Sporu (%10 KOH Hazırlığı)",
-          "file": "gorseller/figure_1_2_11.jpg",
+          "file": "figure_1_2_11",
           "desc": "%10 KOH ile muamele edilmiş deri kazıntısında kıl şaftını saran küresel Trichophyton verrucosum ektotriks artrospor dizilimi (40x)."
         },
         "content": "%10 KOH hazırlığında kıl şaftı etrafında ektotriks artrospor zincirleri (Trichophyton verrucosum) izlenmiştir."
@@ -756,7 +756,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.3-18",
       "title": "Sarkoptik Uyuz Deri Lezyonları & Likenizasyon",
-      "file": "gorseller/figure_1_3_18.png",
+      "file": "figure_1_3_18",
       "desc": "Deride şiddetli likenizasyon, kalınlaşma, kepeklenme ve kaşıntıya bağlı ekskoriasyon."
     },
     "categories": {
@@ -860,7 +860,7 @@
         "gorsel": {
           "fig": "Figure 1.3-18",
           "title": "Mikroskopik Sarcoptes Scabiei Akari",
-          "file": "gorseller/figure_1_3_18.jpg",
+          "file": "figure_1_3_18",
           "desc": "Derin deri kazıntısında mineral yağ altında tespit edilen canlı ergin Sarcoptes scabiei akarı (10x-40x)."
         },
         "content": "Derin deri kazıntısında mineral yağ altında canlı Sarcoptes scabiei ergin akarları ve yumurtaları tespit edilmiştir."
@@ -882,7 +882,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.7-35",
       "title": "Hepatojen Fotosensitizasyon (Boyun ve Sırt Pigmentsiz Deri Nekrozu)",
-      "file": "gorseller/figure_1_7_35.png",
+      "file": "figure_1_7_35",
       "desc": "Yalnızca beyaz (pigmentsiz) deri alanlarında soyulma, hamur ödemi, nekroz ve şiddetli hipersensitivite; siyah pigmentli derinin tamamen sağlam kalması."
     },
     "categories": {
@@ -1019,7 +1019,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.5-1",
       "title": "Akut Ürtiker (Ödem Plakları)",
-      "file": "gorseller/figure_1_5_1.png",
+      "file": "figure_1_5_1",
       "desc": "Gövde ve boyun derisinde aniden beliren dairesel ödemli kabarık ürtiker plakları (urtica)."
     },
     "categories": {
@@ -1136,7 +1136,7 @@
     "makroskopik_gorsel": {
       "fig": "Figure 1.3-13",
       "title": "Akut Larenks Ödemi & Mukozal Şişkinlik",
-      "file": "gorseller/figure_1_3_13.png",
+      "file": "figure_1_3_13",
       "desc": "Larenks mukozasında akut ödem, hiperemi ve hava geçiş yolunu daraltan şişkinlik."
     },
     "categories": {
@@ -1599,12 +1599,6 @@
   "Vaka 1 (Papillomatosis)": {
     "kod": "VAKA_2_1",
     "sikayet": "Sığırın meme başlarında, boyun ve baş bölgesinde çok sayıda karnabahar benzeri, pürüzlü, ağrısız siğilleşmeler ve sağımda zorlanma.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Sığır Papillomavirus (BPV - Bovine Papillomavirus) Kaynaklı Papillomatosis.",
       "patofizyoloji": "BPV sıyrık ve mikrotravmalardan epitel bazal hücrelerine girer. BPV E6 ve E7 onkoproteinleri tümör supressör p53 ve Rb proteinlerini inaktive ederek epidermiste hiperplazi ve hiperkeratöze yol açar.",
@@ -1759,17 +1753,17 @@
         ],
         "content": "Biyopsi kesitinin histopatolojik incelemesinde hiperkeratoz, papillamatoz epidermal hiperplazi ve intranükleer viral inklüzyonlar izlenmiştir."
       }
+    },
+    "makroskopik_gorsel": {
+      "fig": "Figure 2.1",
+      "title": "Kutanöz Papillomatosis Lezyonları",
+      "file": "papillomatosis",
+      "desc": "Meme başı ve boyun derisinde karnabahar benzeri ekzofitik siğilimsi kitleler."
     }
   },
   "Vaka 2 (Çiçek Hastalığı - LSD)": {
     "kod": "VAKA_2_2",
     "sikayet": "Bütün vücut derisinde aniden beliren ceviz büyüklüğünde sert nodüller (sitnos), 41.2 °C ateş, bacaklarda hamur ödemi ve göz-burun akıntısı.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 2",
-      "title": "Yumrulu Deri Hastalığı (LSD / Çiçek Nodülleri - Sitnos)",
-      "file": "gorseller_2/LSD",
-      "desc": "Boyun, sırt ve meme derisinde sınırları belirgin, ortası çökük/nekrotik sert nodüler lezyonlar (sitnos) ve bacaklarda ödem."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Lumpy Skin Disease (LSD / Sığırların Yumrulu Deri Hastalığı - Capripoxvirus).",
       "patofizyoloji": "Vektör kan emici sinekler/keneler ile bulaşan Capripoxvirus endotel hücrelerinde çoğalarak sistemik vaskülite, trombaza ve dermiste iskemik nekroz düğümlerine (sitnos) neden olur.",
@@ -1918,6 +1912,12 @@
         ],
         "content": "Derin nodül biyopsisinin histopatolojik boyamasında dermiste vaskülit, trombüs ve mononükleer hücrelerde intrastoplazmik eozinofilik inklüzyon cisimcikleri tespit edilmiştir."
       }
+    },
+    "makroskopik_gorsel": {
+      "fig": "Figure 2.2",
+      "title": "Yumrulu Deri Hastalığı (LSD / Çiçek Nodülleri - Sitnos)",
+      "file": "LSD",
+      "desc": "Tüm vücut derisinde sert nodüler lezyonlar (sitnos) ve bacaklarda ödem."
     }
   },
   "Vaka 3 (Ektima / Orf)": {
@@ -2358,12 +2358,6 @@
   "Vaka 6 (Hipoderma Bovis)": {
     "kod": "VAKA_2_6",
     "sikayet": "Sığırın sırt ve bel derisi altında çok sayıda ceviz büyüklüğünde, üzerinde delik bulunan ağrılı yumrular (bursa); dokununca larvanın hissedilmesi.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 6",
-      "title": "Sığır Bükelegi / Hypodermosis (Sırt Nodülleri)",
-      "file": "gorseller_2/Hipoderma Bovis",
-      "desc": "Sırt ve bel derisi altında deriyi kabartmış, ortasında solunum deliği (ostium) bulunan sert bursa nodülleri."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Hypodermosis (Sırt Bula Hastalığı - *Hypoderma bovis* / *Hypoderma lineatum* L3 larvası).",
       "patofizyoloji": "Bula sineklerinin bacak kıllarına bıraktığı yumurtalardan çıkan L1 larvalar deriyi delerek omurilik kanalına (*H. bovis*) veya özofagusa (*H. lineatum*) göç eder. Baharda sırta ulaşarak L3 nodüllerini oluşturur.",
@@ -2499,6 +2493,12 @@
         ],
         "content": "Sırt nodülünden sıkılarak çıkarılan larvanın mikroskopik muayenesinde *Hypoderma bovis* L3 larvasına özgü içe doğru batık posterior spirakula plakları doğrulanmıştır."
       }
+    },
+    "makroskopik_gorsel": {
+      "fig": "Figure 2.6",
+      "title": "Sırtta Hypoderma Bovis Nodülleri",
+      "file": "Hipoderma Bovis",
+      "desc": "Sırt ve bel derisi altında ortasında solunum deliği bulunan bursa nodülleri."
     }
   },
   "Vaka 7 (Yalancı Kuduz / Aujeszky)": {
@@ -2791,13 +2791,13 @@
           "lam",
           "lama"
         ],
+        "content": "Kulak venasından alınan kan frotisinin Giemsa boyamasında eritrositlerin %14'ünde çiftler halinde karakteristik armut biçiminde *Babesia bigemina* merozoitleri tespit edilmiştir.",
         "gorsel": {
-          "fig": "Görsel 8",
-          "title": "In-Vitro Giemsa Kan Frotisinde Babesia Bigemina Merozoitleri",
-          "file": "gorseller_2/Babesiosis",
-          "desc": "Giemsa ile boyanmış kan frotisinde eritrositler içerisinde çiftler halinde, dar açıyla birleşmiş armut biçimli Babesia bigemina merozoitleri (100x İmersiyon)."
-        },
-        "content": "Kulak venasından alınan kan frotisinin Giemsa boyamasında eritrositlerin %14'ünde çiftler halinde karakteristik armut biçiminde *Babesia bigemina* merozoitleri tespit edilmiştir."
+          "fig": "Figure 2.8",
+          "title": "Giemsa Kan Frotisinde Babesia Bigemina Merozoitleri",
+          "file": "Babesiosis",
+          "desc": "Giemsa ile boyanmış kan frotisinde eritrositler içerisinde armut biçimli Babesia merozoitleri (100x)."
+        }
       }
     }
   },
@@ -2948,12 +2948,6 @@
   "Vaka 10 (Theileriosis)": {
     "kod": "VAKA_2_10",
     "sikayet": "Yüksek ateş (41.0 °C), yüzeysel lenf nodlarında (*Lnn. prescapulares*) ceviz gibi büyüme, ikterik mukozalar, gözde korneal opaklaşma (katarakt gibi) ve kronik zayıflama.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Theileriosis (Tropikal Teileriyoz - *Theileria annulata*).",
       "patofizyoloji": "*Hyalomma* keneleri ile bulaşan sporozoitler önce lenfosit/makrofajlara girerek şizontlara (Koch cisimcikleri) dönüşür ve lenfoid doku hiperplazisine yol açar. Sonra eritrositlere geçerek anemi ve ikter yapar.",
@@ -3102,12 +3096,6 @@
   "Vaka 11 (Leptospirosis)": {
     "kod": "VAKA_2_11",
     "sikayet": "Yüksek ateş, süt veriminde ani düşme ve sütün kanlı/sarımsı peynirleşmesi ('flaccid udder'), gebe ineklerde abort dalgası, buzağıda portakal rengi hemoglobinüri.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Leptospirosis (*Leptospira borgpetersenii* serovar Hardjo / *L. icterohaemorrhagiae*).",
       "patofizyoloji": "Fare ve kemirgenlerin idrarıyla sulara bulaşan *Leptospira* mukoza/deriden girer. Leptospiremi ile böbrek tübüllerine, uterusa ve memeye yerleşir. Memede vaskülit ve süte kan karışması ('milk drop syndrome') oluşturur.",
@@ -3251,12 +3239,6 @@
   "Vaka 12 (Bovine Leukosis)": {
     "kod": "VAKA_2_12",
     "sikayet": "İnekte kronik zayıflama, süt veriminde düşüş, yüzeysel lenf yumrularında ceviz-elma büyüklüğünde ağrısız sertleşmeler ve sol göz küresinin dışarı fırlaması (ekzoftalmus).",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Enzootik Bovine Leukosis (EBL / Sığır Lökozu / Malign Lenfosarkom - Bovine Leukemia Virus / BLV).",
       "patofizyoloji": "Retrovirus grubu BLV B-lenfositlerini enfekte ederek proviral DNA'sını konak genomuna entegre eder. Hücresel neoplastik dönüşümle lenfoid organlarda, abomazumda, kalpte ve retrobulber alanda lenfosarkom kitleleri oluşturur.",
@@ -3404,12 +3386,6 @@
   "Vaka 13 (Su Zehirlenmesi)": {
     "kod": "VAKA_2_13",
     "sikayet": "2 gün susuz kalan sütten kesilmiş buzağının aniden bol miktarda soğuk su içmesi sonrası gelişen salya akıntısı, kas titremeleri, ataksi (körleşme/sarhoş yürüyüş) ve koyu siyah-kırmızı hemoglobinürik idrar.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Su Zehirlenmesi (Water Intoxication / Su İntoksikasyonu / Tränkehaemoglobinurie).",
       "patofizyoloji": "Uzun süreli dehidrasyondan sonra aniden fazla su içildiğinde kan osmolalitesi aniden düşer (Hipotonisite). Hipotonik plazma eritrosit içine su çekerek patlamalarına (akut intravasküler hemoliz) ve beyin hücrelerine su girerek serebral ödeme neden olur.",
@@ -3556,12 +3532,6 @@
   "Vaka 14 (Kronik Bakır Zehirlenmesi)": {
     "kod": "VAKA_2_14",
     "sikayet": "Koyunun stres (nakil/kırkım) sonrası aniden başlayan şiddetli limon sarısı mukozaları (ikter), portakal-siyah idrar (hemoglobinüri), böbrek yetmezliği ve 48 saatte ölüm.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Kronik Bakır Zehirlenmesi (Chronic Copper Poisoning / Bakır Hemolitik Krizi).",
       "patofizyoloji": "Koyunlarda karaciğerde aylarca biriken bakır, stres anında aniden kana salınır. Kanda yükselen Cu²⁺ eritrositlerde glutatyonu inhibe eder, lipid peroksidasyonuyla masif hemolitik kriz ve böbreklerde tübüler nekroz yapar.",
@@ -3706,12 +3676,6 @@
   "Vaka 15 (Neonatal İzoeritrolizis)": {
     "kod": "VAKA_2_15",
     "sikayet": "Doğumda tamamen sağlıklı olan tayın/buzağının kolostrum emdikten 24-36 saat sonra aniden halsizleşmesi, mukozalarında sarılık, solgunluk, koyu kırmızı idrar ve taşikardi.",
-    "makroskopik_gorsel": {
-      "fig": "Görsel 1",
-      "title": "Kutanöz Papillomatosis (Karnabahar Görünümü)",
-      "file": "gorseller_2/papillomatosis",
-      "desc": "Meme başı ve boyun derisinde saplı veya geniş tabanlı, karnabahar benzeri ekzofitik siğilimsi kitleler."
-    },
     "egitmen_bilgisi": {
       "kesin_tani": "Neonatal Isoerythrolysis (Yenidoğan İzoeritrolizisi / NI / İmmün Hemolitik Anemi).",
       "patofizyoloji": "Ananın (kısrak/inek) yavrunun babasından aldığı eritrosit antijenlerine (Aa/Qa vb.) karşı oluşturduğu antikorlar kolostruma geçer. Yavru kolostrumu emdiğinde alloantikorlar yavru eritrositlerini bağlayarak masif intravasküler/ekstravasküler hemoliz yapar.",
