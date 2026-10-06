@@ -82,37 +82,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Smart Multi-Directory Case-Insensitive Image Resolver
-def get_smart_image(target_name):
-    if not target_name:
-        return None
-    
-    clean_target = re.sub(r'[^a-zA-Z0-9]', '', str(target_name)).lower()
-    
-    search_dirs = [
-        ".",
-        "gorseller_2",
-        "gorseller",
-        "artifacts",
-        "images",
-        "/workspace/artifacts",
-        "/workspace/out",
-        "/workspace/scratch"
-    ]
-    
-    for s_dir in search_dirs:
-        if os.path.exists(s_dir):
-            try:
-                for fname in os.listdir(s_dir):
-                    fpath = os.path.join(s_dir, fname)
-                    if os.path.isfile(fpath):
-                        clean_fname = re.sub(r'[^a-zA-Z0-9]', '', os.path.splitext(fname)[0]).lower()
-                        if clean_fname == clean_target:
-                            return fpath
-            except Exception:
-                pass
-    return None
-
 # Load Case Database JSON
 @st.cache_data
 def load_database():
@@ -129,73 +98,62 @@ def load_database():
                 with open(path, "r", encoding="utf-8") as f:
                     return json.load(f)
             except Exception as e:
-                pass
+                st.error(f"Veri tabanı okuma hatası ({path}): {e}")
     return {}
 
 CASES = load_database()
 
-# Header
+# App Header
 st.markdown("<h1 class='main-title'>🐄 VET401 Akıllı Anamnez & Bulgu Sorgu Konsolu</h1>", unsafe_allow_html=True)
-st.markdown("<div class='sub-title'>Çukurova Üniversitesi Veteriner Fakültesi — 27 Klinik Vaka Bankası (Ders I & II)</div>", unsafe_allow_html=True)
+st.markdown("<div class='sub-title'>Çukurova Üniversitesi Ceyhan Veteriner Fakültesi — Bütünleşik Klinik Vaka Bankası (27 Vaka)</div>", unsafe_allow_html=True)
 
 if not CASES:
-    st.error("⚠️  yüklenemedi! Lütfen dosyanın klasörde olduğunu kontrol ediniz.")
+    st.error("⚠️ `vaka_veritabani.json` veri tabanı dosyası bulunamadı! Lütfen JSON dosyasını uygulamanın olduğu klasöre yükleyiniz.")
     st.stop()
 
-# Filter Module Options
-st.markdown("<div class='vaka-box'>", unsafe_allow_html=True)
-col_mod, col_case = st.columns([1, 2])
+# DERS CATEGORIZATION FOR EASY FILTERING
+ders1_cases = [k for k in CASES.keys() if k.startswith("Vaka ") and len(k) == 6 and k[5] in "ABCDEFGHIJKL"]
+ders2_cases = [k for k in CASES.keys() if k not in ders1_cases]
 
-with col_mod:
-    module_filter = st.selectbox(
-        "📂 Ders / Modül Seçiniz:",
-        options=["Tüm Vakalar (27 Vaka)", "Ders I — Dolaşım & Deri (12 Vaka)", "Ders II — Kan, Parazit & Deri (15 Vaka)"]
+# MAIN PAGE TOP: CASE SELECTION BOX
+st.markdown("<div class='vaka-box'>", unsafe_allow_html=True)
+
+col_ders, col_case = st.columns([1, 2])
+
+with col_ders:
+    selected_ders = st.selectbox(
+        "📚 Klinik Ders Modülünü Seçiniz:",
+        options=["Tüm Vakalar (27 Vaka)", "Ders I: Dolaşım, Deri & Üst Solunum (12 Vaka)", "Ders II: Kan, Vektörel Parazit & Organ (15 Vaka)"]
     )
 
-if "Ders I" in module_filter:
-    filtered_cases = [k for k in CASES.keys() if k.startswith("Vaka ") and k.split()[1] in ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]]
-elif "Ders II" in module_filter:
-    filtered_cases = [k for k in CASES.keys() if k.startswith("Vaka ") and k.split()[1].isdigit()]
+if "Ders I" in selected_ders:
+    filtered_options = ders1_cases
+elif "Ders II" in selected_ders:
+    filtered_options = ders2_cases
 else:
-    filtered_cases = list(CASES.keys())
+    filtered_options = list(CASES.keys())
 
 with col_case:
     selected_case_name = st.selectbox(
         "🔍 İncelemek İstediğiniz Vakayı Seçiniz:",
-        options=filtered_cases,
+        options=filtered_options,
         index=0
     )
+
 st.markdown("</div>", unsafe_allow_html=True)
 
 active_case = CASES[selected_case_name]
 
 # Session state initialization for question history per case
-if "history" not in st.session_state:
-    st.session_state.history = {}
+if "history_master" not in st.session_state:
+    st.session_state.history_master = {}
 
-if selected_case_name not in st.session_state.history:
-    st.session_state.history[selected_case_name] = []
+if selected_case_name not in st.session_state.history_master:
+    st.session_state.history_master[selected_case_name] = []
 
-# Case Complaint Header (Farmer Perspective - No Hocam)
-st.markdown(f"<div class='vaka-header'>📋 {selected_case_name} — İlk Başvuru Şikayeti</div>", unsafe_allow_html=True)
-st.info(f"**🗣️ Yetiştiricinin İfadesi:** {active_case['sikayet']}")
-
-# Macroscopic Image Section if available
-if "makroskopik_gorsel" in active_case:
-    mg = active_case["makroskopik_gorsel"]
-    file_target = mg.get("file", "")
-    img_path = get_smart_image(file_target)
-    
-    st.markdown("### 📸 Klinik Makroskopik Lezyon Görseli")
-    if img_path:
-        st.image(img_path, caption=f"{mg.get('fig', '')} — {mg.get('title', '')}", use_container_width=True)
-    else:
-        st.caption(f"**{mg.get('fig', '')} — {mg.get('title', '')}**")
-        st.write(mg.get("desc", ""))
-        with st.expander("🖼️ Görsel Görünmüyorsa / Fotoğraf Yüklemek İçin Tıklayınız"):
-            uploaded_file = st.file_uploader("📷 Fotoğraf Dosyası Seçiniz (.jpg / .png):", type=["jpg", "jpeg", "png"], key=f"up_macro_{active_case['kod']}")
-            if uploaded_file is not None:
-                st.image(uploaded_file, caption="Yüklenen Fotoğraf", use_container_width=True)
+# Case Complaint Header
+st.markdown(f"<div class='vaka-header'>📋 {selected_case_name} — İlk Başvuru Şikayeti & Yetiştirici İfadesi</div>", unsafe_allow_html=True)
+st.info(f"**🗣️ Yetiştiricinin / Saha İfadesi:** {active_case['sikayet']}")
 
 st.markdown("---")
 
@@ -206,17 +164,17 @@ def match_query(user_text, categories_dict):
     text_clean = user_text.lower().strip()
     text_clean = text_clean.replace("ı", "i").replace("ğ", "g").replace("ü", "u").replace("ş", "s").replace("ö", "o").replace("ç", "c")
     
-    micro_keywords = ["mikroskop", "frotı", "froti", "kazıntı", "lam", "biyopsi", "giemsa", "koh", "spiroket", "akar", "uyuz", "inklüzyon"]
-    if any(k in text_clean for k in micro_keywords):
-        for k_cat in ["GORUNTULEME_MIKROBIYOLOJI", "MIKROSKOPI_KAZINTI"]:
-            if k_cat in categories_dict:
-                return [k_cat]
-
+    # STRICT RULE: Mikroskop / Frotı / Kazıntı queries strictly trigger GORUNTULEME_MIKROBIYOLOJI
+    micro_keywords = ["mikroskop", "froti", "lam", "kazinti", "biyopsi", "spiroket", "giemsa", "gram", "kulture", "ultrason", "rontgen"]
+    if any(mkw in text_clean for mkw in micro_keywords):
+        if "GORUNTULEME_MIKROBIYOLOJI" in categories_dict:
+            return ["GORUNTULEME_MIKROBIYOLOJI"]
+            
     matched_cats = []
     for cat_key, cat_info in categories_dict.items():
-        for kw in cat_info.get("keywords", []):
+        for kw in cat_info["keywords"]:
             kw_clean = kw.lower().replace("ı", "i").replace("ğ", "g").replace("ü", "u").replace("ş", "s").replace("ö", "o").replace("ç", "c")
-            if re.search(r'' + re.escape(kw_clean), text_clean) or kw_clean in text_clean:
+            if re.search(r'\b' + re.escape(kw_clean), text_clean) or kw_clean in text_clean:
                 matched_cats.append(cat_key)
                 break
     return matched_cats
@@ -226,8 +184,8 @@ col_input, col_button = st.columns([4, 1])
 with col_input:
     user_query = st.text_input(
         "Sorunuzu Buraya Yazınız:",
-        key="query_input",
-        placeholder="Örn: İştah durumu nasıl?, İdrar tahlili sonucu nedir?, Deri kazıntısı yapalım, Kan gazı sonucu..."
+        key="query_input_master",
+        placeholder="Örn: İştahı nasıl?, Biyokimya panelini ver, Kan gazı ne durumda?, Deri kazıntısı yapalım..."
     )
 
 with col_button:
@@ -240,84 +198,97 @@ if submit_btn and user_query:
         new_disc = 0
         for cat_key in matches:
             cat_data = active_case["categories"][cat_key]
-            already_in = any(item["cat_key"] == cat_key for item in st.session_state.history[selected_case_name])
+            already_in = any(item["cat_key"] == cat_key for item in st.session_state.history_master[selected_case_name])
             if not already_in:
                 item_dict = {
                     "cat_key": cat_key,
                     "query": user_query,
-                    "title": cat_data.get("name", "Bulgu"),
-                    "content": cat_data.get("content", "")
+                    "title": cat_data["name"],
+                    "content": cat_data["content"]
                 }
-                if "gorsel" in cat_data:
-                    item_dict["gorsel"] = cat_data["gorsel"]
-                st.session_state.history[selected_case_name].append(item_dict)
+                st.session_state.history_master[selected_case_name].append(item_dict)
                 new_disc += 1
         if new_disc > 0:
-            st.success(f"🎉 {new_disc} yeni klinik bulgu / tahlil verisi açığa çıkarıldı!")
+            st.success(f"🎉 {new_disc} yeni klinik bulgu / laboratuvar verisi açığa çıkarıldı!")
     else:
-        st.warning("⚠️ Eşleşen bilgi bulunamadı. Lütfen sorunuzu farklı kelimelerle yazınız.")
+        st.warning("⚠️ Eşleşen muayene bulgusu tespit edilemedi. Lütfen sorunuzu farklı anahtar kelimelerle yazınız.")
 
 # Display Discovered Information
 st.markdown("---")
-st.markdown(f"### 📂 Keşfedilen Klinik İpuçları ve Muayene Bulguları ({len(st.session_state.history[selected_case_name])} Bilgi Açıldı)")
+current_history = st.session_state.history_master.get(selected_case_name, [])
+st.markdown(f"### 📂 Keşfedilen Klinik İpuçları ve Muayene Bulguları ({len(current_history)} Bilgi Açıldı)")
 
-if st.session_state.history[selected_case_name]:
-    if st.button("🗑️ Bu Vakanın Sorgu Geçmişini Temizle"):
-        st.session_state.history[selected_case_name] = []
-        st.rerun()
+if current_history:
+    col_clear, _ = st.columns([1, 3])
+    with col_clear:
+        if st.button("🗑️ Bu Vakanın Sorgu Geçmişini Temizle", key="clear_btn"):
+            st.session_state.history_master[selected_case_name] = []
+            st.rerun()
 
-    for item in reversed(st.session_state.history[selected_case_name]):
+    for item in reversed(current_history):
         st.markdown(f"""
             <div class='card-found'>
                 <div style='display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;'>
                     <span class='badge-category'>{item['title']}</span>
                     <span style='font-size:12px; color:#7F7F7F;'>Sorulan Soru: "{item['query']}"</span>
                 </div>
-                <div class='card-content'><b>🩺 Bulgu / Tahlil Verisi:</b> {item['content']}</div>
+                <div class='card-content'><b>🩺 Bulgu / Tahlil Sonucu:</b> {item['content']}</div>
             </div>
         """, unsafe_allow_html=True)
-        
-        if "gorsel" in item:
-            g = item["gorsel"]
-            g_target = g.get("file", "")
-            g_path = get_smart_image(g_target)
-            st.markdown(f"#### 🔬 {g.get('title', 'Mikroskopik İnceleme')} ({g.get('fig', '')})")
-            if g_path:
-                st.image(g_path, caption=f"{g.get('fig', '')} — {g.get('title', '')}", use_container_width=True)
-            else:
-                st.write(g.get("desc", ""))
-                with st.expander("🖼️ Mikroskop Görseli Yüklemek İçin Tıklayınız"):
-                    up_m = st.file_uploader("📷 Fotoğraf Dosyası Seçiniz:", type=["jpg", "jpeg", "png"], key=f"up_micro_{item['cat_key']}")
-                    if up_m is not None:
-                        st.image(up_m, caption="Yüklenen Mikroskopik Görsel", use_container_width=True)
 
-# Teacher Portal
+# INSTRUCTOR PORTAL IN SIDEBAR (EĞİTMEN PORTALI)
 with st.sidebar:
-    st.markdown("### 🏛️ ÇU Veteriner Fakültesi")
+    st.markdown("### 🏛️ ÇU Ceyhan Veteriner Fakültesi")
     st.markdown("**VET401 İç Hastalıkları I**")
     st.markdown("---")
-    st.markdown("### 🔒 Eğitmen Portalı")
-    teacher_login = st.checkbox("Eğitmen Anahtar Paneli")
+    st.markdown("### 🎓 EĞİTMEN PORTALI")
+    st.info("Bu bölüm yalnızca ders yürütücüsü öğretim üyelerinin erişimine açıktır.")
+    
+    teacher_login = st.checkbox("🔑 Eğitmen Paneli Girişi")
+    
     if teacher_login:
-        pass_code = st.text_input("Giriş Şifresi:", type="password")
+        pass_code = st.text_input("Giriş Şifresi:", type="password", key="teacher_pass")
         if pass_code == "vet401":
-            st.success("Eğitmen Erişimi Onaylandı!")
-            st.markdown(f"#### 🔑 {selected_case_name} — Gizli Eğitmen Rehberi:")
+            st.success("✅ Eğitmen Erişimi Onaylandı!")
             
-            eb = active_case.get("egitmen_bilgisi", {})
-            if "kesin_tani" in eb:
-                st.markdown(f"<div class='instructor-section'><b>🎯 Kesin Tanı:</b><br>{eb['kesin_tani']}</div>", unsafe_allow_html=True)
-            if "patofizyoloji" in eb:
-                st.markdown(f"<div class='instructor-section'><b>🔬 Patofizyoloji:</b><br>{eb['patofizyoloji']}</div>", unsafe_allow_html=True)
-            if "ayirici_tani" in eb:
-                st.markdown(f"<div class='instructor-section'><b>⚖️ Ayırıcı Tanı:</b><br>{eb['ayirici_tani']}</div>", unsafe_allow_html=True)
-            if "tedavi_protokolu" in eb:
-                st.markdown(f"<div class='instructor-section'><b>💊 Sağaltım Protokolü:</b><br>{eb['tedavi_protokolu']}</div>", unsafe_allow_html=True)
-            if "koruma_biyogüvenlik" in eb:
-                st.markdown(f"<div class='instructor-section'><b>🛡️ Sürü Sağlığı & Biyogüvenlik:</b><br>{eb['koruma_biyogüvenlik']}</div>", unsafe_allow_html=True)
+            eg = active_case.get("egitmen_bilgisi", {})
             
-            st.markdown("#### 📊 Vakanın Tüm Tahlil & Muayene Bulguları:")
+            st.markdown("---")
+            st.markdown(f"### 📋 {selected_case_name} Eğitmen Çözüm Anahtarı")
+            
+            # Kesin Tanı
+            kesin_tani_val = eg.get('kesin_tani', active_case.get('kesin_tanis', 'Belirtilmedi'))
+            st.markdown("<div class='instructor-section'>", unsafe_allow_html=True)
+            st.markdown(f"**🎯 Kesin Tanı:** {kesin_tani_val}")
+            st.markdown("</div>", unsafe_allow_html=True)
+            
+            # Patofizyoloji
+            if "patofizyoloji" in eg:
+                st.markdown("<div class='instructor-section'>", unsafe_allow_html=True)
+                st.markdown(f"**🔬 Klinik Patofizyoloji:** {eg['patofizyoloji']}")
+                st.markdown("</div>", unsafe_allow_html=True)
+                
+            # Ayırıcı Tanı
+            if "ayirici_tani" in eg:
+                st.markdown("<div class='instructor-section'>", unsafe_allow_html=True)
+                st.markdown(f"**⚖️ Ayırıcı Tanı Kriterleri:** {eg['ayirici_tani']}")
+                st.markdown("</div>", unsafe_allow_html=True)
+                
+            # Tedavi Protokolü
+            if "tedavi_protokolu" in eg:
+                st.markdown("<div class='instructor-section'>", unsafe_allow_html=True)
+                st.markdown(f"**💊 Sağaltım & Reçete Protokolü:** {eg['tedavi_protokolu']}")
+                st.markdown("</div>", unsafe_allow_html=True)
+                
+            # Biyogüvenlik
+            if "koruma_biyogüvenlik" in eg:
+                st.markdown("<div class='instructor-section'>", unsafe_allow_html=True)
+                st.markdown(f"**🛡️ Sürü Sağlığı & Biyogüvenlik:** {eg['koruma_biyogüvenlik']}")
+                st.markdown("</div>", unsafe_allow_html=True)
+                
+            st.markdown("---")
+            st.markdown("#### 🔑 Bu Vakanın Tüm Gizli Muayene & Laboratuvar Verileri:")
             for ck, cv in active_case["categories"].items():
-                st.markdown(f"**• {cv.get('name', ck)}:** {cv.get('content', '')}")
+                st.markdown(f"**• {cv['name']}:** {cv['content']}")
         elif pass_code:
-            st.error("Hatalı Şifre!")
+            st.error("❌ Hatalı Giriş Şifresi!")
