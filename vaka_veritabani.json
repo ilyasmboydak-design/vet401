@@ -2680,7 +2680,7 @@
           "pcv",
           "hemoglobin"
         ],
-        "content": "RBC: 2.8 x10⁶/µL (Şiddetli Anemi!) | Hb: 4.2 g/dL | PCV: %13 (Kritik Hemoliz) | WBC: 14.8 x10³/µL | MCV: 58 fL."
+        "content": "RBC: 2.8 x10⁶/µL (Şiddetli Anemi!) | Hb: 4.2 g/dL | PCV: %13 (Kritik İntravasküler Hemoliz!) | MCV: 46.4 fL | MCH: 15.0 pg | MCHC: 32.3 g/dL | WBC: 4.8 x10³/µL (Lökopeni) | Nötrofil (Parçalı): %45 | Nötrofil (Çomak): %4 (Sola Kayma) | Lenfosit: %48 | Monosit: %3 | Eozinofil: %0 (Özinopeni!) | Bazofil: %0 | PLT: 82 x10³/µL (Trombositopeni - Tüketim Koagülopatisi) | Fibrinojen: 380 mg/dL | PP/F Oranı: 16.8."
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -2705,7 +2705,7 @@
           "hco3",
           "hipoksi"
         ],
-        "content": "pH: 7.30 | pCO2: 36 mmHg | pO2: 25 mmHg (Ağır doku hipoksisi) | HCO3⁻: 17 mmol/L | BE: -7.2 mmol/L | Laktat: 5.4 mmol/L."
+        ""Venöz Kan Gazı Örneği: pH: 7.30 (Venöz Asidemi) | Venöz pCO2: 36 mmHg | Venöz pO2: 22 mmHg (Şiddetli Venöz Hipoksemi / Anemik Anoksi!) | HCO3⁻: 17.0 mmol/L | BE: -7.2 mmol/L | Laktat: 5.4 mmol/L (Doku Anoksisine Bağlı Yüksek L-Laktat)."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -2825,7 +2825,7 @@
           "anemi",
           "pcv"
         ],
-        "content": "RBC: 2.2 x10⁶/µL (Şiddetli Anemi) | Hb: 3.8 g/dL | PCV: %11 | WBC: 12.6 x10³/µL | Anizositoz ve Jolly cisimcikleri."
+        "content": "RBC: 2.2 x10⁶/µL (Şiddetli Ekstravasküler Anemi) | Hb: 3.8 g/dL | PCV: %11 (Kritik Düşüş) | MCV: 50.0 fL | MCH: 17.2 pg | MCHC: 34.5 g/dL | WBC: 12.6 x10³/µL | Nötrofil (Parçalı): %52 | Nötrofil (Çomak): %5 (Reaktif Sola Kayma) | Lenfosit: %38 | Monosit: %5 (Monositoz - Retiküloendotelyal Aktivasyon) | Eozinofil: %0 (Özinopeni) | Bazofil: %0 | PLT: 110 x10³/µL | Fibrinojen: 420 mg/dL | PP/F Oranı: 15.2 | Frotide Anaplasma inklüzyon cisimcikleri, Anizositoz ve Jolly cisimcikleri."
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -2848,7 +2848,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.34 | pCO2: 38 mmHg | pO2: 25 mmHg | HCO3⁻: 19 mmol/L | BE: -5.8 mmol/L | Laktat: 4.2 mmol/L."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.34 | Venöz pCO2: 38 mmHg | Venöz pO2: 24 mmHg (Venöz pO2 Şiddetli Düşük - Anemik Anoksi) | HCO3⁻: 19.0 mmol/L | BE: -5.8 mmol/L | Laktat: 4.2 mmol/L (Doku Hipoksisi Laktik Asidozu)."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -2973,7 +2973,7 @@
           "anemi",
           "lenfosit"
         ],
-        "content": "RBC: 3.1 x10⁶/µL | Hb: 5.2 g/dL | PCV: %16 | WBC: 18.2 x10³/µL (Lenfositoz ve sola kayma) | PLT: 140 x10³/µL."
+        "content": "RBC: 3.1 x10⁶/µL (Ağır Anemi) | Hb: 5.2 g/dL | PCV: %16 | MCV: 51.6 fL | MCH: 16.8 pg | MCHC: 32.5 g/dL | WBC: 3.2 x10³/µL (Ağır Panlökopeni / Lenfoid Yıkım & Kemik İliği Supresyonu!) | Nötrofil (Parçalı): %40 | Nötrofil (Çomak): %8 (Reaktif Sola Kayma) | Lenfosit: %46 (1.47 x10³/µL - Mutlak Lenfopenten!) | Monosit: %5 | Eozinofil: %1 | Bazofil: %0 | PLT: 95 x10³/µL (Trombositopeni) | Fibrinojen: 680 mg/dL | PP/F Oranı: 9.8 (Yangı Göstergesi! PP/F < 10)."
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -2996,7 +2996,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.31 | pCO2: 44 mmHg | pO2: 25 mmHg | HCO3⁻: 18 mmol/L | BE: -6.1 mmol/L."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.31 | Venöz pCO2: 42 mmHg | Venöz pO2: 25 mmHg (Ağır Venöz Hipoksemi) | HCO3⁻: 18.0 mmol/L | BE: -6.1 mmol/L | Laktat: 3.8 mmol/L."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -3119,7 +3119,7 @@
           "wbc",
           "trombositopeni"
         ],
-        "content": "RBC: 4.8 x10⁶/µL | Hb: 8.2 g/dL | PCV: %24 | WBC: 16.4 x10³/µL | PLT: 85 x10³/µL (Trombositopeni)."
+        "content": "RBC: 4.8 x10⁶/µL (Orta Derece Anemi) | Hb: 8.2 g/dL | PCV: %24 | MCV: 50.0 fL | MCH: 17.0 pg | MCHC: 34.1 g/dL | WBC: 16.4 x10³/µL (Lökositoz & Reaktif Sola Kayma) | Nötrofil (Parçalı): %68 | Nötrofil (Çomak): %7 (Degeneratif Sola Kayma) | Lenfosit: %20 | Monosit: %4 | Eozinofil: %1 | Bazofil: %0 | PLT: 85 x10³/µL (Vaskülite Bağlı Trombositopeni!) | Fibrinojen: 780 mg/dL | PP/F Oranı: 8.9 (Belirgin Yangısal Reaksiyon)"
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -3142,7 +3142,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.32 | pCO2: 42 mmHg | pO2: 80 mmHg | HCO3⁻: 18 mmol/L | BE: -5.1 mmol/L."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.32 | Venöz pCO2: 42 mmHg | Venöz pO2: 32 mmHg (Venöz pO2 Düşük) | HCO3⁻: 18.0 mmol/L  | BE: -5.1 mmol/L | Laktat: 2.9 mmol/L."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -3264,7 +3264,7 @@
           "persistan",
           "atipik"
         ],
-        "content": "RBC: 5.2 x10⁶/µL | Hb: 8.8 g/dL | PCV: %26 | WBC: 38.5 x10³/µL (Aşırı Persistan Lenfositoz) | Lenfosit: %82 (Atipik pleomorfik lenfositler!)."
+        "content": "RBC: 5.2 x10⁶/µL | Hb: 8.8 g/dL | PCV: %26 | MCV: 50.0 fL | MCH: 16.9 pg | MCHC: 33.8 g/dL | WBC: 38.5 x10³/µL (Masif Persistan Neoplastik Lenfositoz!) | Nötrofil (Parçalı): %15 | Nötrofil (Çomak): %1 | Lenfosit: %82 (31.57 x10³/µL - Atipik Pleomorfik Neoplastik Lenfositler!) | Monosit: %1 | Eozinofil: %1 | Bazofil: %0 | PLT: 180 x10³/µL | Fibrinojen: 410 mg/dL | PP/F Oranı: 16.2."
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -3288,7 +3288,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.41 | pCO2: 40 mmHg | pO2: 88 mmHg | HCO3⁻: 25 mmol/L."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.41 | Venöz pCO2: 40 mmHg | Venöz pO2: 38 mmHg (Normal Venöz pO2) | HCO3⁻: 25.0 mmol/L | BE: +0.2 mmol/L | Laktat: 1.8 mmol/L."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -3410,7 +3410,7 @@
           "anemi",
           "pcv"
         ],
-        "content": "RBC: 3.4 x10⁶/µL | Hb: 5.8 g/dL | PCV: %18 (Akut intravasküler hemoliz) | WBC: 9.2 x10³/µL."
+        "content": "RBC: 3.4 x10⁶/µL (Akut İntravasküler Lizis) | Hb: 5.8 g/dL | PCV: %18 | MCV: 52.9 fL | MCH: 17.0 pg | MCHC: 32.2 g/dL | WBC: 9.2 x10³/µL | Nötrofil (Parçalı): %58 | Nötrofil (Çomak): %2 | Lenfosit: %35 | Monosit: %4 | Eozinofil: %1 | Bazofil: %0 | PLT: 210 x10³/µL | Fibrinojen: 350 mg/dL | PP/F Oranı: 17.1."
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -3433,7 +3433,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.35 | pCO2: 38 mmHg | pO2: 82 mmHg | HCO3⁻: 21 mmol/L | BE: -3.0 mmol/L."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.35 | Venöz pCO2: 38 mmHg | Venöz pO2: 34 mmHg (Venöz pO2) | HCO3⁻: 21.0 mmol/L | BE: -3.0 mmol/L | Laktat: 2.2 mmol/L."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -3555,7 +3555,7 @@
           "anemi",
           "pcv"
         ],
-        "content": "RBC: 2.1 x10⁶/µL (Masif Hemoliz) | Hb: 3.5 g/dL | PCV: %10 | WBC: 18.9 x10³/µL | Heinz cisimcikleri +."
+        "content": "RBC: 2.1 x10⁶/µL (Masif Ölümcül İntravasküler Hemoliz) | Hb: 3.5 g/dL | PCV: %10 (Kritik %10 Eşiği) | MCV: 47.6 fL | MCH: 16.7 pg | MCHC: 35.0 g/dL | WBC: 18.9 x10³/µL (Reaktif Stres/Yangı Lökositozu) | Nötrofil (Parçalı): %72 | Nötrofil (Çomak): %6 | Lenfosit: %18 | Monosit: %3 | Eozinofil: %1 | Bazofil: %0 | PLT: 110 x10³/µL | Fibrinojen: 620 mg/dL | PP/F Oranı: 11.2 |"
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -3579,7 +3579,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.21 | pCO2: 34 mmHg | pO2: 54 mmHg | HCO3⁻: 13 mmol/L | BE: -11.2 mmol/L (Ağır Metabolik Asidoz)."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.21 (Ağır Venöz Asidemi) | Venöz pCO2: 34 mmHg | Venöz pO2: 18 mmHg (Ağır Venöz Anoksik Hipoksemi!) | HCO3⁻: 13.0 mmol/L (Ağır Metabolik Asidoz) | BE: -11.2 mmol/L | Laktat: 6.8 mmol/L (Şiddetli Anoksik Laktik Asidoz)."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
@@ -3699,7 +3699,7 @@
           "anemi",
           "pcv"
         ],
-        "content": "RBC: 2.0 x10⁶/µL (Kritik Hemoliz!) | Hb: 3.2 g/dL | PCV: %9.5 (Ölümcül Anemi) | WBC: 11.2 x10³/µL."
+        "content": "RBC: 2.0 x10⁶/µL (Kritik Hemoliz!) | Hb: 3.2 g/dL | PCV: %9.5 (Ölümcül Anemi Seviyesi) | MCV: 47.5 fL | MCH: 16.0 pg | MCHC: 33.7 g/dL | WBC: 11.2 x10³/µL | Nötrofil (Parçalı): %60 | Nötrofil (Çomak): %4 | Lenfosit: %32 | Monosit: %3 | Eozinofil: %1 | Bazofil: %0 | PLT: 140 x10³/µL | Fibrinojen: 390 mg/dL | PP/F Oranı: 16.2."
       },
       "BIYOKIMYA_PANELI": {
         "name": "Bütünsellikli Serum Biyokimyası, Enzim & Elektrolit Paneli",
@@ -3722,7 +3722,7 @@
           "po2",
           "hco3"
         ],
-        "content": "pH: 7.24 | pCO2: 32 mmHg | pO2: 48 mmHg | HCO3⁻: 14 mmol/L | BE: -10.5 mmol/L (Şiddetli Anoksik Asidoz)."
+        "content": "Venöz Kan Gazı Örneği: pH: 7.24 (Şiddetli Asidemi) | Venöz pCO2: 32 mmHg | Venöz pO2: 17 mmHg (Kritik Venöz Anoksi!) | HCO3⁻: 14.0 mmol/L (Şiddetli Anoksik Metabolik Asidoz) | BE: -10.5 mmol/L | Laktat: 6.2 mmol/L (Dokusal Hipoksi Laktik Asidozu)."
       },
       "IDRAR_TAHLILI": {
         "name": "Tam İdrar Tahlili (Urinalysis & Hemoglobinüri Ayrımı)",
