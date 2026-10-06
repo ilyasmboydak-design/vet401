@@ -6,6 +6,12 @@
         "yas": "4 Yaşında",
         "kesin_tanis": "Traumatik Retikuloperikarditis (TRP)",
         "sikayet": "Bizim inek iki gündür aniden sütten kesildi, yeme yanaşmıyor. Gerdanının altında ve göğsünün altında hamur gibi çöküntülü bir şişlik birikti, sırtını kamburlaştırıp hiç kımıldamadan duruyor.",
+        "makroskopik_gorsel": {
+            "fig": "Figure 1.2-1",
+            "title": "Gerdan ve Göğüs Altı Ödemi & Jugular Staz",
+            "file": "gorseller/figure_1_2_1.jpg",
+            "desc": "Traumatik Retikuloperikarditis olgusunda perikardiyal basınç ve venöz drenaj bozukluğuna bağlı gerdan ödemi ve belirgin venöz dolgunluk."
+        },
         "categories": {
             "RASYON_YEM": {
                 "name": "Rasyon & Yemleme Öyküsü",
@@ -41,7 +47,7 @@
                     "önceki",
                     "sağlık"
                 ],
-                "content": "Geçen laktasyonda Subklinik Rumen Asidozu (SARA) öyküsü mevcut. Mıknatısı atılmamış."
+                "content": "Geçen laktasyonda Subklinik Rumen Asidozu (SARA) öyküsü mevcut. Yabancı cisim mıknatısı (ferroskop) atılmamış."
             },
             "ISTAH_DURUMU": {
                 "name": "İştah & Yutma / Çiğneme Durumu",
@@ -199,6 +205,12 @@
         "yas": "5 Yaşında",
         "kesin_tanis": "Vegetatif Valvüler Endokarditis (Triküspit Kapak)",
         "sikayet": "Bizim süt ineği haftalardır bir türlü toparlanamadı, günden güne eriyor. Ateşi bir yükselip bir düşüyor, bacaklarında ödem başladı ve iki adım atınca hemen nefes nefese kalıyor.",
+        "makroskopik_gorsel": {
+            "fig": "Figure 1.2-1",
+            "title": "Triküspit Kapak Vegetasyonları & Venöz Dolgunluk",
+            "file": "gorseller/figure_1_2_1.jpg",
+            "desc": "Triküspit kapak üzerinde bakteriyel trombotik ve vegetatif üremeler; venöz staz."
+        },
         "categories": {
             "RASYON_YEM": {
                 "name": "Rasyon & Yemleme Öyküsü",
@@ -2422,21 +2434,21 @@
             }
         }
     },
-    "Vaka 6 (Hipoderma Bovis)": {
+    "Vaka 6 ": {
         "kod": "VAKA_2_6",
-        "sikayet": "Sığırın sırt ve bel derisi altında çok sayıda ceviz büyüklüğünde, üzerinde delik bulunan ağrılı yumrular (bursa); dokununca larvanın hissedilmesi.",
+        "sikayet": "Sığırın sırt ve bel derisi altında çok sayıda ceviz büyüklüğünde, üzerinde delik bulunan ağrılı yumrular.",
         "makroskopik_gorsel": {
             "fig": "Figure 2.6-A",
-            "title": "Sığırlarda Hypodermosis (Sırt Bula Hastalığı / Hypoderma Bovis Nodülleri)",
-            "file": "gorseller/hypoderma_macro.png",
-            "desc": "Sırt ve bel derisi altında deriyi kabartmış, ortasında solunum deliği (ostium) bulunan sert bursa nodülleri."
+            "title": ")",
+            "file": "gorseller/hypoderma_macro.jpg",
+            "desc": ""
         },
         "egitmen_bilgisi": {
             "kesin_tani": "Hypodermosis (Sırt Bula Hastalığı - *Hypoderma bovis* / *Hypoderma lineatum* L3 larvası).",
             "patofizyoloji": "Bula sineklerinin bacak kıllarına bıraktığı yumurtalardan çıkan L1 larvalar deriyi delerek omurilik kanalına (*H. bovis*) veya özofagusa (*H. lineatum*) göç eder. Baharda sırta ulaşarak L3 nodüllerini oluşturur.",
             "ayirici_tani": "Deri altı apselerinden ortasında solunum deliği olması ve içinden kütikulası sertleşmiş larva çıkması ile ayrılır.",
             "tedavi_protokolu": "1. Sistemik Endektosid: İvermektin / Doramektin / Moksidektin (0.2 mg/kg SC) sonbahar başlarında uygulanmalıdır.\n2. Uyarı: Larvalar omurilik kanalındayken (Kasım-Ocak) ilaç yapılırsa paraliz, özofagustayken yapılırsa blot/özofajit gelişebilir!",
-            "koruma_biyogüvenlik": "Sonbaharda (Ekim-Kasım) tüm sürüye rutin dökme (pour-on) veya enjektabl avermektin uygulaması yapılması."
+            "koruma_biyogüvenlik": "Sonbaharda (Ekim-Kasım) tüm sürüye rutin dökme (pour-on) veya enjektabl doramektin uygulaması yapılması."
         },
         "categories": {
             "RASYON_YEM": {
@@ -2476,7 +2488,7 @@
                     "iştah",
                     "yem yiyor mu"
                 ],
-                "content": "İştah genelde normaldir. Larva sayısı fazla olanlarda hafif canlı ağırlık kaybı."
+                "content": "İştah genelde normaldir. nodülü olanlarda hafif canlı ağırlık kaybı."
             },
             "VITAL_BULGULAR": {
                 "name": "Genel Muayene & Vital Bulgular",
@@ -2576,12 +2588,12 @@
     },
     "Vaka 7 (Yalancı Kuduz / Aujeszky)": {
         "kod": "VAKA_2_7",
-        "sikayet": "Düğün/sığırın böğür derisinde şiddetli durdurulamayan kaşıntı ('mad itch'), bacağını duvarlara sürterek deriyi parçalaması, kasılmalar, köpüklü salya ve 24 saatte ölüm.",
+        "sikayet": "Sığırın göğsünde derisinde şiddetli durdurulamayan kaşıntı, bacağını duvarlara sürterek deriyi parçalaması, kasılmalar, köpüklü salya ve 24 saatte ölüm.",
         "makroskopik_gorsel": {
             "fig": "Figure 2.7-A",
-            "title": "Sığırlarda Yalancı Kuduz (Pseudorabies / Aujeszky Hastalığı - Mad Itch)",
-            "file": "gorseller/pseudorabies_macro.png",
-            "desc": "Böğür ve kalça bölgesinde şiddetli kaşıntı nedeniyle derinin tırmalanarak kanatılması, ekskoriasyon ve alopezi."
+            "title": "",
+            "file": "",
+            "desc": "."
         },
         "egitmen_bilgisi": {
             "kesin_tani": "Pseudorabies (Aujeszky Hastalığı / Yalancı Kuduz - Suid Herpesvirus 1).",
@@ -2729,7 +2741,7 @@
     },
     "Vaka 8 (Babesiosis)": {
         "kod": "VAKA_2_8",
-        "sikayet": "Meradan dönen ineğin aniden başlayan 41.5 °C ateşi, ikterik mukozalar, koyu kahve-kırmızı idrar (hemoglobinüri), şiddetli anemi ve seröz burun akıntısı.",
+        "sikayet": "Meradan dönen ineğin aniden başlayan 41.5 °C ateşi, ikterik mukozalar, koyu kahve-kırmızı idrar , şiddetli anemi ve seröz burun akıntısı.",
         "makroskopik_gorsel": {
             "fig": "Figure 2.8-A",
             "title": "Sığırlarda Babesiosis (Sıtma / Hemoglobinüri / Koyu Portakal-Kırmızı İdrar)",
