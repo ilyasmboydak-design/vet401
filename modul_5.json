@@ -1,0 +1,717 @@
+{
+  "Vaka 1": {
+    "kod": "M5_V1",
+    "sikayet": "Bu sabah geldiğimde dana yatıyordu, ne yaptıysak ayağa kalkamadı. Arkasından vıcık vıcık, ekşi kokulu sulu bir ishal gelmiş. Yeme suya hiç dokunmuyor, geviş getirmeyi tamamen kesti, yatıp sürekli inliyor.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Akut Laktik Rumen Asidozu (Grain Overload / Acute Rumen Acidosis)",
+      "patofizyoloji": "Kolay sindirilebilir nişastalı yemlerin aşırı tüketimi sonucu Streptococcus bovis ve Lactobacillus spp. florada hızla çoğalır. Laktik asit fırlar, rumen pH'sı < 5.0'e düşer. Rumen ozmolaritesi artarak sistemik dolaşımdan rumene masif sıvı çeker (ozmotik dehidrasyon, hemokonsantrasyon). L- ve D-laktat emilimi ağır metabolik asidoza ve D-laktik ensefalopatiye (nörolojik depresyon, yatar vaziyet) neden olur.",
+      "ayirici_tani": "Basit İndigesyon (pH 6.0-6.5, dehidrasyon yok), Rumen Alkalozu (pH > 7.5, amonyak kokusu), Hipokalsemi (kalsiyum düşüklüğü var, rumen pH'sı asidik değil).",
+      "tedavi_protokolu": "1) Rumen Lavajı: Geniş çaplı rumen sondası ile boşaltma. 2) Rumen İçi Nötralizasyon: Magnezyum Hidroksit (500 g) veya Sodyum Bikarbonat (200 g) 10 L suda. 3) İV Sıvı & Bikarbonat: %1.3 NaHCO3 izotonik çözeltisi. 4) Tiamin (B1 Vitamini): 10 mg/kg İM. 5) Transfunasyon: 5-10 L taze rumen sıvısı.",
+      "koruma_biyogüvenlik": "Rasyonda kaba yem/kesif yem dengesi kademeli (14-21 gün) değiştirilmelidir. Tane yemler aşırı ince öğütülmemelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "arpa",
+          "mısır",
+          "kesif yem",
+          "tane",
+          "kırma",
+          "nişasta",
+          "besleme",
+          "rasyon geçmişi",
+          "kesif",
+          "kaba yem"
+        ],
+        "content": "Besinin son aşamasında canlı ağırlık artışını artırmak amacıyla rasyondaki kesif yem miktarı aniden artırılmıştır (günlük kaba yem miktarı 4 kg'dan 1 kg'a düşürülmüş, kırılmış arpa ve mısır miktarı ise günlük 3 kg'dan 9 kg'a çıkarılmıştır)."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "besi",
+          "çevre",
+          "işletme",
+          "kümes",
+          "ahır",
+          "rakım yüksekliği",
+          "tesis",
+          "entansif"
+        ],
+        "content": "Rakım: 120 m. Kapalı entansif besi tesisi."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "aşı",
+          "kronik",
+          "öykü",
+          "hastalık geçmişi",
+          "önceki tedavi",
+          "anamnez geçmişi"
+        ],
+        "content": "Geçmişte kronik hastalık öyküsü yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "anoreksi",
+          "geviş",
+          "atoni",
+          "rumen hareketi",
+          "iştahsızlık",
+          "kontraksiyon"
+        ],
+        "content": "Tam anoreksi (iştahsızlık) (Düşük/Anormal). Rumen hareketleri: 5 dakikada 0 (Tam rumen atonisi) (Şiddetli Düşük). Geviş getirme durmuş (Düşük)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "vital",
+          "trias",
+          "rektal derece",
+          "kalp frekansı"
+        ],
+        "content": "Rektal Sıcaklık: 37.1 °C (Hipotermi / Düşük) | Nabız: 118 atım/dk (Zayıf/ Yüksek) | Solunum: 70 nefes/dk (derin solunum / Yüksek) | Dehidrasyon: %10 (Göz küresi 8 mm çukurda, deri çadırlaşması 12 sn / Şiddetli Yüksek) | Mukozalar: Kuru ve siyanotik (Düşük Perfüzyon)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "çalkantı",
+          "ses",
+          "succussion",
+          "ping",
+          "akciğer sesleri",
+          "kalp sesleri",
+          "dinleme"
+        ],
+        "content": "Sol açlık çukurunda belirgin su çalkantı sesi alınıyor (Anormal)."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "withers",
+          "götze",
+          "çubuk testi",
+          "cidago",
+          "ağrı testi",
+          "abdominal ağrı"
+        ],
+        "content": "Withers ve Götze ağrı provokasyon testleri NEGATİF."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "mcv",
+          "mch",
+          "mchc",
+          "nötrofil",
+          "lenfosit",
+          "monosit",
+          "eozinofil",
+          "bazofil",
+          "plt",
+          "fibrinojen",
+          "lökosit",
+          "eritrosit",
+          "hematokrit"
+        ],
+        "content": "RBC: 10.9 x10⁶/µL (Yüksek) | Hb: 17.5 g/dL (Yüksek) | PCV: %53 (Şiddetli Hemokonsantrasyon / Yüksek) | MCV: 48.6 fL (Normal) | MCH: 16.0 pg (Normal) | MCHC: 33.0 g/dL (Normal) | WBC: 19.2 x10³/µL (Yüksek) | Nötrofil: %76 (Yüksek) | Band: %9 (Sola kayma / Yüksek) | Lenfosit: %12 (Düşük) | Monosit: %2 (Normal) | Eozinofil: %1 (Normal) | Bazofil: %0 (Normal) | PLT: 285 x10³/µL (Normal) | Fibrinojen: 510 mg/dL (Yüksek)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "laktat",
+          "protein",
+          "albümin",
+          "globülin",
+          "glikoz",
+          "sodyum",
+          "potasyum",
+          "klor",
+          "kalsiyum",
+          "fosfor",
+          "magnezyum",
+          "karaciğer enzimi",
+          "böbrek paneli"
+        ],
+        "content": "ALT: 29 U/L (Normal) | AST: 185 U/L (Yüksek) | GGT: 25 U/L (Normal) | ALP: 98 U/L (Normal) | CK: 245 U/L (Hafif Yüksek) | Total Protein: 9.4 g/dL (Dehidrasyon / Yüksek) | Albümin: 4.3 g/dL (Yüksek) | Globülin: 5.1 g/dL (Yüksek) | A/G Oranı: 0.84 (Normal) | BUN: 62 mg/dL (Prerenal Azotemi / Şiddetli Yüksek) | Serum Kreatinin: 3.4 mg/dL (Yüksek) | SDMA: 19 µg/dL (Yüksek) | Total Bilirubin: 0.9 mg/dL (Normal) | Glikoz: 138 mg/dL (Stres / Yüksek) | Na⁺: 131 mEq/L (Hafif Düşük) | K⁺: 5.9 mEq/L (Hiperkalemi / Yüksek) | Cl⁻: 87 mEq/L (Düşük) | Ca²⁺: 7.7 mg/dL (Düşük) | İnorganik Fosfor: 8.5 mg/dL (Yüksek) | Mg²⁺: 2.8 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat",
+          "sao2",
+          "asidoz",
+          "alkaloz",
+          "baz açığı",
+          "bikarbonat",
+          "venöz kan gazı",
+          "arteriyel kan gazı"
+        ],
+        "content": "Venöz pH: 7.01 (Şiddetli Asidemi / Düşük) (Arteriyel pH: 7.05) (Düşük) | Venöz pCO2: 32 mmHg (Düşük) (Arteriyel pCO2: 28 mmHg) (Düşük / Solunumsal Kompenzasyon) | Venöz pO2: 28 mmHg (Normal) (Arteriyel pO2: 82 mmHg) (Normal) | Venöz HCO3⁻: 8.0 mmol/L (Şiddetli Düşük) (Arteriyel HCO3⁻: 8.5 mmol/L) (Şiddetli Düşük) | Venöz BE: -23.0 mmol/L (Şiddetli Düşük) (Arteriyel BE: -22.1 mmol/L) (Şiddetli Düşük) | Venöz Laktat: 13.5 mmol/L (Şiddetli Laktik Asidoz / Yüksek) (Arteriyel Laktat: 12.9 mmol/L) (Yüksek) | Venöz SaO2: %51 (Normal) (Arteriyel SaO2: %92) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph",
+          "protein",
+          "glikoz",
+          "keton",
+          "bilirubin",
+          "sediment",
+          "idrar analizi",
+          "dansite ölçümü",
+          "hiyalin silendir"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.044 (Konsantre / Yüksek) | pH: 5.1 (Asidüri / Düşük) | Protein: + (Hafif Yüksek) | Glikoz: Negatif (Normal) | Keton: Negatif (Normal) | Bilirubin: Negatif (Normal) | Hemoglobin/Kan: Negatif (Normal) | Sediment: Yoğun hiyalin silendirler ve dökülmüş böbrek epitel hücreleri."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "rumen sıvısı",
+          "ph",
+          "metilen mavisi",
+          "protozoa",
+          "infuzori",
+          "gram boyama",
+          "sonda",
+          "sonda örneği",
+          "mikroskopi",
+          "flora"
+        ],
+        "content": "Rumen Sonda Örneği: Sıvı gri-sarı, ekşi ve keskin laktik asit kokulu, sulu kıvamda | Rumen Sıvısı pH'sı: 4.4 (Şiddetli Düşük) | Metilen Mavisi Redüksiyon Süresi: > 30 dakika (Flora inaktif / Yüksek) | Mikroskopi: Protozoalar tamamen hareketsiz ve ölmüş; mikrobiyel popülasyon değişmiş."
+      }
+    }
+  },
+  "Vaka 2": {
+    "kod": "M5_V2",
+    "sikayet": "Besi danalarını yaklaşık iki aydır hiç ot, saman koymadan sadece fabrikadan gelen ince pelet yem ve mısır kırmasıyla besliyoruz. Hayvanların iştahı dalgalı, istenen kiloyu bir türlü alamıyorlar. Dışkıları bazen cıvıklaşarak bazen düzeliyor, geviş getirmeleri de çok seyrek.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Rumen Parakeratozu (Ruminal Parakeratosis / Chronic Hyperkeratosis)",
+      "patofizyoloji": "Rasyonda kaba yem (lif) yetersizliği ve aşırı peletlenmiş/ince öğütülmüş kesif yem kullanımı sonucu fiziksel tırmalama etkisi kaybolur. Rumende sürekli yüksek düzeyde bütirik ve propiyonik asit üretimi mukoza epitelinde aşırı keratinleşmeyi (hiperkeratoz) tetikler. Dökülemeyen ölü hücreler birikir, papillalar sertleşir, koyulaşır ve birbirine yapışarak büzüşür. Uçucu yağ asitlerinin emilim yüzeyi bozulur.",
+      "ayirici_tani": "SARA (pH < 5.5 ve dalgalı seyir var), Akut Asidoz (laktik asit yüksek, pH < 5.0), Basit İndigesyon (geçici ve rasyon lifiyle düzelir).",
+      "tedavi_protokolu": "1) Rasyona tırmalama etkisi olan 2-4 cm uzunluğunda kaliteli kaba yem (kuru ot/saman) eklenmesi (%15-20 minimum). 2) İnce öğütülmüş pelet yemlerin azaltılması. 3) Rumen florasını desteklemek için canlı maya (S. cerevisiae) ilavesi.",
+      "koruma_biyogüvenlik": "Besi danalarında kaba yem rasyondan tamamen çıkarılmamalıdır. Pelet pelet boyutu ve fiziksel lif yapısı muhafaza edilmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "pelet",
+          "mısır kırması",
+          "kaba yem",
+          "lif",
+          "besleme",
+          "saman",
+          "kesif yem",
+          "pelet yem"
+        ],
+        "content": "Besi danalarına 60 gündür kaba yem verilmediği, sadece ince öğütülmüş pelet yem ve mısır kırması sunulduğu öğrenilmiştir."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "besi",
+          "çevre",
+          "entansif",
+          "ahır"
+        ],
+        "content": "Rakım: 150 m. Entansif besi tesisi."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "aşı",
+          "kronik",
+          "öykü"
+        ],
+        "content": "Uzun süredir devam eden düşük canlı ağırlık artışı dışında akut kriz öyküsü yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "geviş",
+          "atoni",
+          "düzensiz iştah"
+        ],
+        "content": "İştah dalgalı ve değişken (Anormal). Rumen hareketleri: 2 dakikada 1 (Yüzeyel ve zayıf / Düşük). Geviş getirme belirgin derecede azalmış (Düşük)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza"
+        ],
+        "content": "Rektal Sıcaklık: 38.6 °C (Normal) | Nabız: 78 atım/dk (Normal) | Solunum: 24 nefes/dk (Normal) | Dehidrasyon: %3 (Normal) | Mukozalar: Pembe ve nemli (Normal)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "kalp sesleri",
+          "akciğer sesleri",
+          "rumen sesleri"
+        ],
+        "content": "Kalp ve akciğer oskültasyonunda patolojik ses saptanmadı."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "withers",
+          "götze"
+        ],
+        "content": "Withers ve Götze testleri NEGATİF."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen"
+        ],
+        "content": "RBC: 7.1 x10⁶/µL (Normal) | Hb: 11.8 g/dL (Normal) | PCV: %34 (Normal) | MCV: 47.9 fL (Normal) | MCH: 16.6 pg (Normal) | MCHC: 34.7 g/dL (Normal) | WBC: 11.8 x10³/µL (Normal) | Nötrofil: %60 (Normal) | Band: %2 (Normal) | Lenfosit: %32 (Normal) | Monosit: %4 (Normal) | Eozinofil: %2 (Normal) | PLT: 310 x10³/µL (Normal) | Fibrinojen: 440 mg/dL (Mukozal iritasyon / Hafif Yüksek)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "protein",
+          "albümin",
+          "glikoz",
+          "sodyum",
+          "potasyum",
+          "klor",
+          "kalsiyum"
+        ],
+        "content": "ALT: 25 U/L (Normal) | AST: 98 U/L (Hafif Yüksek) | GGT: 28 U/L (Normal) | ALP: 82 U/L (Normal) | CK: 135 U/L (Normal) | Total Protein: 7.2 g/dL (Normal) | Albümin: 3.4 g/dL (Normal) | Globülin: 3.8 g/dL (Normal) | A/G Oranı: 0.89 (Normal) | BUN: 22 mg/dL (Normal) | Serum Kreatinin: 1.2 mg/dL (Normal) | SDMA: 10 µg/dL (Normal) | Total Bilirubin: 0.5 mg/dL (Normal) | Glikoz: 68 mg/dL (Normal) | Na⁺: 139 mEq/L (Normal) | K⁺: 4.3 mEq/L (Normal) | Cl⁻: 98 mEq/L (Normal) | Ca²⁺: 9.2 mg/dL (Normal) | İnorganik Fosfor: 5.0 mg/dL (Normal) | Mg²⁺: 2.2 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat",
+          "sao2"
+        ],
+        "content": "Venöz pH: 7.32 (Hafif Düşük) (Arteriyel pH: 7.35) (Normal) | Venöz pCO2: 40 mmHg (Normal) (Arteriyel pCO2: 37 mmHg) (Normal) | Venöz pO2: 36 mmHg (Normal) (Arteriyel pO2: 88 mmHg) (Normal) | Venöz HCO3⁻: 19.8 mmol/L (Hafif Düşük) (Arteriyel HCO3⁻: 20.4 mmol/L) (Hafif Düşük) | Venöz BE: -4.2 mmol/L (Hafif Düşük) (Arteriyel BE: -3.6 mmol/L) (Hafif Düşük) | Venöz Laktat: 2.8 mmol/L (Hafif Yüksek) (Arteriyel Laktat: 2.5 mmol/L) (Normal) | Venöz SaO2: %65 (Normal) (Arteriyel SaO2: %95) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph",
+          "protein",
+          "glikoz"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.022 (Normal) | pH: 6.8 (Normal) | Protein: Negatif (Normal) | Glikoz: Negatif (Normal) | Keton: Negatif (Normal)."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "rumen sıvısı",
+          "ph",
+          "bütirik asit",
+          "propiyonik asit",
+          "uya",
+          "biyopsi",
+          "mukoza",
+          "papilla",
+          "hiperkeratoz"
+        ],
+        "content": "Rumen Sıvısı pH'sı: 5.6 (Hafif Düşük) | UYA Analizi: Bütirik ve propiyonik asit oranları belirgin yüksek (Yüksek) | Rumen Mukoza Biyopsisi / İncelemesi: Papillalarda sertleşme, koyulaşma (hiperkeratoz) ve kümeleşerek birbirine yapışma teyit edildi."
+      }
+    }
+  },
+  "Vaka 3": {
+    "kod": "M5_V3",
+    "sikayet": "Yem karmasının içeriğini değiştirip yeni bir protein katkısı eklemiştik. İnek iki gündür yememeye başladı. Yanına gittiğimde ağzından keskin, idrar benzeri bir kokulu nefes geliyor. Dışkısı çok az, koyu renkli ve çamur gibi cıvık yapıda.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Rumen Alkalozu ve Amonyak Toksisitesi (Ruminal Alkalosis & Ammonia Toxicity)",
+      "patofizyoloji": "Rasyona aşırı üre veya bozulmuş yüksek proteinli yem eklenmesi sonucu rumende mikrobiyel üreaz enzimi hızla amonyak (NH3) üretir. Rumen pH'sı > 7.5 üzerine çıkar. Amonyak emilerek kana geçer, karaciğerin üre siklusu kapasitesi aşılır (hiperamonyemi). Ağır sistemik alkaloz, nörolojik depresyon ve rumen atonisi şekillenir.",
+      "ayirici_tani": "Rumen Asidozu (pH asidiktir, ekşi koku vardır), Basit İndigesyon (pH 6-7 arasındadır, amonyak kokusu yoktur).",
+      "tedavi_protokolu": "1) Rumen İçi Asitlendirme: 2-5 L %5'lik Asetik Asit (sirke) + 20 L soğuk su verilerek amonyağın emilmeyen NH4+ formuna dönüştürülmesi. 2) İV Sıvı: Serum Fizyolojik (%0.9 NaCl). 3) Rumen Lavajı.",
+      "koruma_biyogüvenlik": "Rasyondaki üre miktarı kuru maddenin %1'ini geçmemelidir. Üre yem karmasına çok homojen karıştırılmalıdır."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "üre",
+          "protein",
+          "katkı",
+          "besleme",
+          "amonyak",
+          "protein katkısı"
+        ],
+        "content": "Rasyona 2 gün önce kontrolsüz yeni bir protein yem katkısı eklendiği bildirilmiştir."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "ahır",
+          "işletme"
+        ],
+        "content": "Rakım: 180 m. Kapalı süt işletmesi."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "aşı",
+          "kronik"
+        ],
+        "content": "Geçmişte sistemik hastalık öyküsü yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "geviş",
+          "atoni",
+          "anoreksi"
+        ],
+        "content": "Tam anoreksi (Düşük). Rumen hareketleri: 2 dakikada 0 (Tam rumen atonisi) (Şiddetli Düşük). Geviş getirme yok (Düşük)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "kokulu nefes"
+        ],
+        "content": "Rektal Sıcaklık: 38.8 °C (Normal) | Nabız: 88 atım/dk (Hafif Yüksek) | Solunum: 30 nefes/dk (Hafif Yüksek) | Dehidrasyon: %6 (Orta / Yüksek) | Mukozalar: Hafif hiperemik ve kuru | Nefes Kokusu: Ağızdan keskin amonyak/idrar kokusu geliyor (Anormal)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "kalp sesleri",
+          "akciğer sesleri"
+        ],
+        "content": "Kalp sesleri hafif taşikardik; akciğer sesleri doğal."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "withers",
+          "götze"
+        ],
+        "content": "Withers ve Götze testleri NEGATİF."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen"
+        ],
+        "content": "RBC: 7.9 x10⁶/µL (Hafif Yüksek) | Hb: 13.8 g/dL (Hafif Yüksek) | PCV: %41 (Dehidrasyon / Hafif Yüksek) | MCV: 48.0 fL (Normal) | MCH: 16.2 pg (Normal) | MCHC: 34.1 g/dL (Normal) | WBC: 12.4 x10³/µL (Normal) | Nötrofil: %64 (Normal) | Band: %2 (Normal) | Lenfosit: %30 (Normal) | Monosit: %3 (Normal) | PLT: 310 x10³/µL (Normal) | Fibrinojen: 420 mg/dL (Normal)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "protein",
+          "amonyak",
+          "potasyum",
+          "klor"
+        ],
+        "content": "ALT: 34 U/L (Normal) | AST: 142 U/L (Yüksek) | GGT: 38 U/L (Normal) | ALP: 110 U/L (Normal) | CK: 190 U/L (Normal) | Total Protein: 8.4 g/dL (Hafif Yüksek) | Albümin: 3.9 g/dL (Normal) | Globülin: 4.5 g/dL (Hafif Yüksek) | BUN: 48 mg/dL (Yüksek) | Serum Kreatinin: 2.1 mg/dL (Yüksek) | SDMA: 14 µg/dL (Normal) | Total Bilirubin: 0.7 mg/dL (Normal) | Glikoz: 88 mg/dL (Normal) | Na⁺: 144 mEq/L (Normal) | K⁺: 3.1 mEq/L (Hipokalemi / Düşük) | Cl⁻: 92 mEq/L (Hipokloremi / Düşük) | Ca²⁺: 8.8 mg/dL (Normal) | İnorganik Fosfor: 4.8 mg/dL (Normal) | Mg²⁺: 2.1 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat",
+          "sao2",
+          "alkaloz"
+        ],
+        "content": "Venöz pH: 7.52 (Metabolik Alkalemi / Yüksek) (Arteriyel pH: 7.55) (Yüksek) | Venöz pCO2: 48 mmHg (Solunumsal Kompenzasyon / Hafif Yüksek) (Arteriyel pCO2: 44 mmHg) (Normal) | Venöz pO2: 34 mmHg (Normal) (Arteriyel pO2: 88 mmHg) (Normal) | Venöz HCO3⁻: 34.0 mmol/L (Metabolik Alkaloz / Yüksek) (Arteriyel HCO3⁻: 34.8 mmol/L) (Yüksek) | Venöz BE: +9.5 mmol/L (Yüksek) (Arteriyel BE: +10.2 mmol/L) (Yüksek) | Venöz Laktat: 2.1 mmol/L (Normal) (Arteriyel Laktat: 1.9 mmol/L) (Normal) | Venöz SaO2: %62 (Normal) (Arteriyel SaO2: %94) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph",
+          "alkalin idrar"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.032 (Yüksek) | pH: 8.8 (Alkalin İdrar / Yüksek) | Protein: Negatif (Normal) | Glikoz: Negatif (Normal)."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "rumen sıvısı",
+          "ph",
+          "amonyak",
+          "koku",
+          "kültür"
+        ],
+        "content": "Rumen Sıvısı pH'sı: 7.9 (Alkalik / Şiddetli Yüksek) | Rumen Sıvısı Kokusu: Keskin, tahriş edici amonyak/idrar kokusu (Anormal) | Plazma Amonyak Seviyesi: 420 µg/dL (Şiddetli Yüksek) | Rumen Sıvısı Amonyak-Azotu (NH3-N): 95 mg/dL (Şiddetli Yüksek)."
+      }
+    }
+  },
+  "Vaka 4": {
+    "kod": "M5_V4",
+    "sikayet": "Sabah hayvanları taze otlu meraya salmıştık. Öğleye doğru bir tanesinin sol böğrü davul gibi gerildi, şişti. Hayvan soluk alırken hırıldıyor, ağzından yeşilimsi köpükler geliyor, sürekli huzursuzca yatıp kalkıyor.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Köpüklü (Primer) Rumen Timpanisi (Frothy Bloat / Frothy Bloat Indigestion)",
+      "patofizyoloji": "Taze yonca/mera otlarındaki çözünebilir proteinler ve saponinler rumende gaz kabarcıklarının etrafını sararak kararlı bir köpük tabakası oluşturur. Gaz köpük içinde hapsolduğu için erüktasyon (geğirme) mekanizması çalışmaz. Rumen masif şekilde genişleyerek diyaframa bası yapar, venöz dönüşü kilitler ve ağır iskemik anoksi ile solunum krizine yol açar.",
+      "ayirici_tani": "Serbest Gazlı Timpani (sonda takılınca gaz hızla boşalır, köpük yoktur), Özefagus Tıkanması (sonda özefagustan geçmez).",
+      "tedavi_protokolu": "1) Yüzey gerilimini düşürücü Antifoam ajanlar: Poloksalen (25-50 g) veya Didecil sodyum sülfosüksinat veya bitkisel yağ (300-500 mL) rumen içi sonda ile. 2) Ağır boğulma krizinde acil trokarizasyon veya rumenotomi.",
+      "koruma_biyogüvenlik": "Çiğli ve wet mera otlatılmasından kaçınılmalıdır. Meraya çıkarmadan önce hayvanlara kuru ot verilmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "yonca",
+          "mera",
+          "taze ot",
+          "çiğli ot",
+          "besleme"
+        ],
+        "content": "Hayvanların sabah nemli ve taze yonca merasında otlatıldığı öğrenilmiştir."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "mera",
+          "yayla"
+        ],
+        "content": "Rakım: 350 m. Taze otlu mera alanı."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "aşı"
+        ],
+        "content": "Geçmişte solunum veya ön mide hastalığı öyküsü yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "geviş",
+          "şişkinlik"
+        ],
+        "content": "İştah tamamen durmuş (Düşük). Masif gaz gerginliği nedeniyle rumen hareketleri değerlendirilemiyor."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "dispne",
+          "siyanoz"
+        ],
+        "content": "Rektal Sıcaklık: 39.2 °C (Hafif Yüksek) | Nabız: 108 atım/dk (Yüksek) | Solunum: 68 nefes/dk (Şiddetli Yüksek / Dispneik, yüzeysel) | Dehidrasyon: %4 (Hafif) | Mukozalar: Belirgin siyanotik (Doku Hipoksisi / Anormal)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "timpanik rezonans",
+          "ping",
+          "akciğer sesleri"
+        ],
+        "content": "Sol açlık çukurunda ping sesi alınıyor."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "withers",
+          "götze"
+        ],
+        "content": "Huzursuzluk ve ağrı nedeniyle testler tam uygulanamıyor."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen"
+        ],
+        "content": "RBC: 8.2 x10⁶/µL (Hafif Yüksek) | Hb: 14.2 g/dL (Hafif Yüksek) | PCV: %43 (Hafif Yüksek) | MCV: 47.8 fL (Normal) | MCH: 16.1 pg (Normal) | MCHC: 33.8 g/dL (Normal) | WBC: 11.2 x10³/µL (Normal) | Nötrofil: %62 (Normal) | Band: %2 (Normal) | Lenfosit: %32 (Normal) | Monosit: %3 (Normal) | PLT: 290 x10³/µL (Normal) | Fibrinojen: 380 mg/dL (Normal)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "glikoz"
+        ],
+        "content": "ALT: 26 U/L (Normal) | AST: 95 U/L (Normal) | GGT: 22 U/L (Normal) | ALP: 82 U/L (Normal) | CK: 160 U/L (Normal) | Total Protein: 7.8 g/dL (Normal) | Albümin: 3.6 g/dL (Normal) | Globülin: 4.2 g/dL (Normal) | BUN: 22 mg/dL (Normal) | Serum Kreatinin: 1.3 mg/dL (Normal) | SDMA: 10 µg/dL (Normal) | Total Bilirubin: 0.5 mg/dL (Normal) | Glikoz: 112 mg/dL (Ağır Stres / Yüksek) | Na⁺: 138 mEq/L (Normal) | K⁺: 4.5 mEq/L (Normal) | Cl⁻: 98 mEq/L (Normal) | Ca²⁺: 8.9 mg/dL (Normal) | İnorganik Fosfor: 4.9 mg/dL (Normal) | Mg²⁺: 2.0 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat",
+          "hipoksi"
+        ],
+        "content": "Venöz pH: 7.22 (Asidemi / Düşük) (Arteriyel pH: 7.25) (Düşük) | Venöz pCO2: 56 mmHg (CO2 Retansiyonu / Yüksek) (Arteriyel pCO2: 52 mmHg) (Yüksek) | Venöz pO2: 22 mmHg (Ağır Hipoksi / Şiddetli Düşük) (Arteriyel pO2: 46 mmHg) (Şiddetli Düşük) | Venöz HCO3⁻: 21.0 mmol/L (Normal) (Arteriyel HCO3⁻: 21.8 mmol/L) (Normal) | Venöz BE: -3.8 mmol/L (Hafif Düşük) (Arteriyel BE: -3.2 mmol/L) (Hafif Düşük) | Venöz Laktat: 5.8 mmol/L (Dokusal İskemi / Yüksek) (Arteriyel Laktat: 5.4 mmol/L) (Yüksek) | Venöz SaO2: %38 (Şiddetli Düşük) (Arteriyel SaO2: %62) (Şiddetli Düşük)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.028 (Normal) | pH: 6.5 (Normal) | Protein: Negatif (Normal)."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "rumen sıvısı",
+          "sonda",
+          "köpük"
+        ],
+        "content": "Rumen Sondası Uygulaması: Sonda yerleştirildiğinde serbest gaz çıkmadı; sonda ağzından yeşilimsi köpüklü sıvı fışkırdı."
+      }
+    }
+  }
+}

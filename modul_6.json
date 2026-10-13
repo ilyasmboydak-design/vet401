@@ -1,0 +1,628 @@
+{
+  "Vaka 5": {
+    "kod": "M6_V1",
+    "sikayet": "Besi koçumuz bir iki gündür sürekli arkasını büküp ıkınıyor ama hiç idrar yapamıyor, sadece birkaç damla damlıyor. Karnının altı ve kamışının çevresi de sünger gibi şişmeye başladı. Hayvan yemden sudan tamamen kesildi.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Tıkayıcı Urolitiazis ve Üretra Rüptürü / Üroperiton (Obstructive Urolithiasis & Urethral Rupture)",
+      "patofizyoloji": "Besi koçlarında rasyonda yüksek fosfor ve düşük kalsiyum (Ca:P oranının bozulması) veya silikat taşları üretra processus urethralis veya flexura sigmoidea seviyesinde tıkar. Üretra veya kese rüptüre olur; idrar karın boşluğuna (üroperiton) veya ventral deri altına (su karın) sızar. Masif post-renal azotemi, şiddetli hiperkalemi ve üremi gelişir.",
+      "ayirici_tani": "Sistit (idrar az da olsa yapılır, rüptür ve ödem yoktur), Akut Peritonit (abdominosentez sıvısında idrar kokusu ve yüksek kreatinin yoktur).",
+      "tedavi_protokolu": "1) Hiperkalemi Stabilizasyonu: İV %10 Glikoz + İnsülin veya %10 Kalsiyum Glukonat. 2) Cerrahi Müdahale: Amputatio processus urethralis veya Tüp Sistosil operasyonu. Kontrendike: Diüretikler (Furosemid).",
+      "koruma_biyogüvenlik": "Kuzu ve koç rasyonlarında Ca:P oranı 2:1 tutulmalı; rasyona %0.5-1.0 Amonyum Klorür (idrar asitleştirici) eklenmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "kesif yem",
+          "fosfor",
+          "kalsiyum",
+          "tane yem",
+          "besi koçu"
+        ],
+        "content": "Besi koçlarına yüksek oranlı tahıl kırması verildiği, mermer tozu/kalsiyum takviyesi yapılmadığı bildirilmiştir."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "besi",
+          "ağıl"
+        ],
+        "content": "Rakım: 200 m. Kapalı besi ağılı."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "aşı"
+        ],
+        "content": "Geçmişte benzer tıkanıklık öyküsü yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "anoreksi"
+        ],
+        "content": "Tam anoreksi (Düşük). Rumen hareketleri: 2 dakikada 0 (Atoni / Düşük)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "ventral ödem",
+          "kamış",
+          "ıkınma"
+        ],
+        "content": "Rektal Sıcaklık: 37.8 °C (Hafif Düşük) | Nabız: 124 atım/dk (Kardiyotoksisite / Yüksek) | Solunum: 48 nefes/dk (Yüksek) | Dehidrasyon: %10 (Şiddetli Yüksek) | Prepusyum ve Ventral Karın: Sıcak, fluktuasyon veren yaygın ödem (Su karın / Anormal)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "kalp sesleri",
+          "aritmik"
+        ],
+        "content": "Kalp sesleri aritmik ve derinden geliyor (Hiperkalemi etkisi)."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "abdominal ağrı"
+        ],
+        "content": "Karına alttan basıda şiddetli ağrı reaksiyonu mevcut."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen"
+        ],
+        "content": "RBC: 11.2 x10⁶/µL (Yüksek) | Hb: 18.2 g/dL (Yüksek) | PCV: %54 (Şiddetli Hemokonsantrasyon / Yüksek) | MCV: 42.1 fL (Normal) | MCH: 15.2 pg (Normal) | MCHC: 33.7 g/dL (Normal) | WBC: 22.4 x10³/µL (Yüksek) | Nötrofil: %78 (Yüksek) | Band: %8 (Sola kayma / Yüksek) | Lenfosit: %10 (Düşük) | Monosit: %3 (Normal) | PLT: 320 x10³/µL (Normal) | Fibrinojen: 680 mg/dL (Yüksek)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "potasyum",
+          "sodyum",
+          "klor",
+          "kalsiyum",
+          "fosfor",
+          "azotemi"
+        ],
+        "content": "ALT: 32 U/L (Normal) | AST: 198 U/L (Yüksek) | GGT: 28 U/L (Normal) | ALP: 115 U/L (Normal) | CK: 380 U/L (Yüksek) | Total Protein: 9.8 g/dL (Yüksek) | Albümin: 4.5 g/dL (Yüksek) | Globülin: 5.3 g/dL (Yüksek) | BUN: 148 mg/dL (Post-Renal Azotemi / Şiddetli Yüksek) | Serum Kreatinin: 10.2 mg/dL (Şiddetli Yüksek) | SDMA: 38 µg/dL (Şiddetli Yüksek) | Total Bilirubin: 0.8 mg/dL (Normal) | Glikoz: 145 mg/dL (Yüksek) | Na⁺: 122 mEq/L (Hiponatremi / Düşük) | K⁺: 7.6 mEq/L (Kardiyotoksik Hiperkalemi / Şiddetli Yüksek) | Cl⁻: 82 mEq/L (Hipokloremi / Düşük) | Ca²⁺: 7.2 mg/dL (Düşük) | İnorganik Fosfor: 11.5 mg/dL (Şiddetli Yüksek) | Mg²⁺: 3.2 mg/dL (Hafif Yüksek)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat",
+          "asidoz"
+        ],
+        "content": "Venöz pH: 7.12 (Ağır Metabolik Asidemi / Düşük) (Arteriyel pH: 7.15) (Düşük) | Venöz pCO2: 34 mmHg (Düşük) (Arteriyel pCO2: 30 mmHg) (Düşük) | Venöz pO2: 26 mmHg (Normal) (Arteriyel pO2: 84 mmHg) (Normal) | Venöz HCO3⁻: 11.2 mmol/L (Şiddetli Düşük) (Arteriyel HCO3⁻: 11.8 mmol/L) (Şiddetli Düşük) | Venöz BE: -17.5 mmol/L (Şiddetli Düşük) (Arteriyel BE: -16.8 mmol/L) (Şiddetli Düşük) | Venöz Laktat: 6.2 mmol/L (Yüksek) (Arteriyel Laktat: 5.8 mmol/L) (Yüksek) | Venöz SaO2: %48 (Normal) (Arteriyel SaO2: %91) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "anüri",
+          "sonda",
+          "üretra"
+        ],
+        "content": "Tam Anüri."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "ultrason",
+          "abdominosentez",
+          "kreatinin",
+          "ekg",
+          "üroperiton"
+        ],
+        "content": "Karın İçi Sıvı Kreatinin / Serum Kreatinin Oranı: 3.2:1 (Üroperiton Teyit) | EKG: T dalgasında sivrileşme (tall peaked T wave) ve P dalgası kaybı (Hiperkalemi kardiyotoksisite teyidi)."
+      }
+    }
+  },
+  "Vaka 6": {
+    "kod": "M6_V2",
+    "sikayet": "İnek doğum yapalı bir hafta oldu, doğum biraz zor geçmişti. Birkaç gündür idrarını yaparken sırtını kamburlaştırıp sızlanıyor. İdrarın hafif kanlı geliyor. Sütü yarı yarıya azaldı.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Bakteriyel Pyelonefrit (Contagious Bovine Pyelonephritis / Corynebacterium renale)",
+      "patofizyoloji": "Genişleyen uterus veya doğum travması sonrası Corynebacterium renale veya E. coli üretradan yukarı tırmanarak (asendens enfeksiyon) idrar kesesi, üreterler ve böbrek pelvisinde bakteriyel purulent iltihap oluşturur. Böbrek dokusunda mikroapseler gelişir. İdrarda irin, kan, fibrin ve bakteri bulunur.",
+      "ayirici_tani": "Sistit (böbrekler ağrısızdır, üreter kalınlaşmamıştır), Enzootik Hematüri (ateş ve irin yoktur, sadece pıhtılı kan vardır).",
+      "tedavi_protokolu": "1) Antibiyotik: Yüksek doz Procaine Penicillin G (22.000 IU/kg İM, 14-21 gün). 2) İdrar Asitleştirici: Amonyum Klorür (40-80 g/gün oral). 3) Bol İV Sıvı.",
+      "koruma_biyogüvenlik": "Doğum hijyenine dikkat edilmeli; kontamine sonda ve ekipman kullanılmamalıdır."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "doğum",
+          "laktasyon"
+        ],
+        "content": "Yeni doğum yapmış süt ineği rasyonu."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "ahır"
+        ],
+        "content": "Rakım: 160 m. Bağlı duraklı ahır."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "güç doğum",
+          "distosi"
+        ],
+        "content": "1 hafta önce güç doğum öyküsü mevcut."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "anoreksi"
+        ],
+        "content": "İştahsızlık mevcut (Düşük). Rumen hareketleri: 2 dakikada 1 (Zayıf / Düşük)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "ağrılı idrar",
+          "strangüri"
+        ],
+        "content": "Rektal Sıcaklık: 39.7 °C (Ateş / Yüksek) | Nabız: 92 atım/dk (Yüksek) | Solunum: 34 nefes/dk (Yüksek) | Dehidrasyon: %6 (Orta / Yüksek) | İdrar Yapma: Ağrılı, sırt bükerek (Strangüri / Anormal)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "rektal muayene",
+          "böbrek",
+          "üreter"
+        ],
+        "content": "Rektal Muayenede: Sol böbrek büyümüş, lobülasyonu kaybolmuş ve ağrılı; sol üreter başparmak kalınlığında sertleşmiş (Anormal)."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "böbrek ağrısı"
+        ],
+        "content": "Sol böbrek bölgesine rektal basıda şiddetli ağrı reaksiyonu."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen",
+          "lökositoz"
+        ],
+        "content": "RBC: 5.2 x10⁶/µL (Anemi / Düşük) | Hb: 8.8 g/dL (Düşük) | PCV: %26 (Düşük) | MCV: 46.2 fL (Normal) | MCH: 15.8 pg (Normal) | MCHC: 33.8 g/dL (Normal) | WBC: 21.5 x10³/µL (Reaktif Lökositoz / Yüksek) | Nötrofil: %74 (Yüksek) | Band: %7 (Sola kayma / Yüksek) | Lenfosit: %15 (Düşük) | Monosit: %3 (Normal) | PLT: 280 x10³/µL (Normal) | Fibrinojen: 780 mg/dL (Akut Faz / Şiddetli Yüksek)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "protein",
+          "albümin",
+          "globülin"
+        ],
+        "content": "ALT: 28 U/L (Normal) | AST: 112 U/L (Normal) | GGT: 26 U/L (Normal) | ALP: 88 U/L (Normal) | CK: 140 U/L (Normal) | Total Protein: 8.2 g/dL (Yüksek) | Albümin: 2.8 g/dL (Düşük) | Globülin: 5.4 g/dL (Enflamasyon / Yüksek) | A/G Oranı: 0.51 (Düşük) | BUN: 48 mg/dL (Renal Azotemi / Yüksek) | Serum Kreatinin: 2.8 mg/dL (Yüksek) | SDMA: 22 µg/dL (Yüksek) | Total Bilirubin: 0.6 mg/dL (Normal) | Glikoz: 78 mg/dL (Normal) | Na⁺: 136 mEq/L (Normal) | K⁺: 4.8 mEq/L (Normal) | Cl⁻: 96 mEq/L (Normal) | Ca²⁺: 8.4 mg/dL (Normal) | İnorganik Fosfor: 6.2 mg/dL (Normal) | Mg²⁺: 2.1 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat"
+        ],
+        "content": "Venöz pH: 7.31 (Hafif Düşük) (Arteriyel pH: 7.34) (Normal) | Venöz pCO2: 38 mmHg (Normal) (Arteriyel pCO2: 35 mmHg) (Normal) | Venöz pO2: 36 mmHg (Normal) (Arteriyel pO2: 89 mmHg) (Normal) | Venöz HCO3⁻: 18.2 mmol/L (Hafif Düşük) (Arteriyel HCO3⁻: 18.8 mmol/L) (Hafif Düşük) | Venöz BE: -5.8 mmol/L (Hafif Düşük) (Arteriyel BE: -5.1 mmol/L) (Hafif Düşük) | Venöz Laktat: 2.8 mmol/L (Hafif Yüksek) (Arteriyel Laktat: 2.5 mmol/L) (Normal) | Venöz SaO2: %64 (Normal) (Arteriyel SaO2: %94) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph",
+          "protein",
+          "kan",
+          "piyüri",
+          "sediment",
+          "lökosit",
+          "bakteri"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.018 (Hafif Düşük) | pH: 8.5 (Alkalin İdrar / Yüksek) | Protein: +++ (Proteinüri / Yüksek) | Glikoz: Negatif (Normal) | Keton: Negatif (Normal) | Hemoglobin / Kan: +++ (Pıhtılı Hematüri / Yüksek) | Sediment: Yoğun lökosit kümeleri (piyüri), eritrositler, fibrin pıhtıları ve bakteriyel kümeleşmeler."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "ultrason",
+          "kültür",
+          "gram boyama",
+          "corynebacterium"
+        ],
+        "content": "İdrar Mikrobiyolojik Kültür / Sitoloji: Gram-pozitif çomak bakteriler (Corynebacterium renale), lökositler ve fibrin pıhtıları."
+      }
+    }
+  },
+  "Vaka 7": {
+    "kod": "M6_V3",
+    "sikayet": "İneğin çenesinin altında ve döşünün arasında su toplanmış gibi yumuşak şişlikler oluştu. Aylardır geçmeyen sulu bir ishali var, ne kadar yem versek de günden güne eridi, kemikleri sayılıyor. Sütü tamamen bitti.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Renal Amiloidozis ve Nefrotik Sendrom (Renal Amyloidosis & Nephrotic Syndrome)",
+      "patofizyoloji": "Geçmişteki kronik supüratif enfeksiyonlara (kronik mastitis, ayak apseleri) yanıt olarak üretilen SAA (Serum Amyloid A) proteini glomerül bazal membranında birikir. Glomerüler filtrasyon gözenekleri genişler, masif albümin idrarla atılır (masif proteinüri). Serum albümin çökünce (hipoalbüminemi) plazma onkotik basıncı düşer; ventral ödem, ascites ve kronik ishal gelişir.",
+      "ayirici_tani": "Paratüberküloz (proteinüri yoktur, böbrek fonksiyonları normaldir), Karaciğer Sirozu (idrarda protein yoktur, karaciğer enzimleri yüksektir).",
+      "tedavi_protokolu": "Kesin tedavisi yoktur. Semptomatik diüretik ve destek tedavisi verilir. Prognoz KÖTÜDÜR; hasta kesime ayrılır.",
+      "koruma_biyogüvenlik": "Sürüde kronik ayak apseleri ve kronik mastitis vakaları zamanında ve agresif tedavi edilmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "zayıflama",
+          "kaşeksi"
+        ],
+        "content": "Standart süt ineği rasyonu."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "ahır"
+        ],
+        "content": "Rakım: 140 m. Süt işletmesi."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "kronik mastitis",
+          "ayak apsesi"
+        ],
+        "content": "Geçmişte tekrarlayan kronik mastitis ve kronik ayak apsesi öyküsü mevcut."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite",
+          "kaşeksi"
+        ],
+        "content": "İştah zayıf (Düşük). Rumen hareketleri: 2 dakikada 1 (Zayıf / Düşük)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "submandibuler ödem",
+          "çene altı ödem",
+          "kaşeksi"
+        ],
+        "content": "Rektal Sıcaklık: 38.2 °C (Normal) | Nabız: 64 atım/dk (Normal) | Solunum: 20 nefes/dk (Normal) | Dehidrasyon: %4 (Hafif) | Submandibuler ve Sternum Altı: Ağrısız, soğuk, çukurlaşan (pitting) ödem (Şiddetli Hipoalbüminemi / Anormal) | Genel Durum: İleri derecede kaşeksi."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "kalp sesleri",
+          "akciğer sesleri"
+        ],
+        "content": "Kalp ve akciğer oskültasyonu doğal."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "withers",
+          "götze"
+        ],
+        "content": "Withers ve Götze testleri NEGATİF."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen",
+          "anemi"
+        ],
+        "content": "RBC: 4.8 x10⁶/µL (Kronik Anemi / Düşük) | Hb: 7.9 g/dL (Düşük) | PCV: %24 (Düşük) | MCV: 45.0 fL (Normal) | MCH: 15.1 pg (Normal) | MCHC: 32.9 g/dL (Normal) | WBC: 7.2 x10³/µL (Normal) | Nötrofil: %55 (Normal) | Band: %1 (Normal) | Lenfosit: %38 (Normal) | Monosit: %4 (Normal) | PLT: 240 x10³/µL (Normal) | Fibrinojen: 540 mg/dL (Kronik Enflamasyon / Yüksek)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "protein",
+          "albümin",
+          "hipoalbüminemi",
+          "uremi"
+        ],
+        "content": "ALT: 24 U/L (Normal) | AST: 78 U/L (Normal) | GGT: 22 U/L (Normal) | ALP: 68 U/L (Normal) | CK: 110 U/L (Normal) | Total Protein: 4.2 g/dL (Masif Hipoalbüminemi / Şiddetli Düşük) | Albümin: 1.3 g/dL (Onkotik Çöküş / Şiddetli Düşük) | Globülin: 2.9 g/dL (Düşük) | A/G Oranı: 0.44 (Düşük) | BUN: 92 mg/dL (Ağır Üremi / Şiddetli Yüksek) | Serum Kreatinin: 5.8 mg/dL (Şiddetli Yüksek) | SDMA: 32 µg/dL (Şiddetli Yüksek) | Total Bilirubin: 0.4 mg/dL (Normal) | Glikoz: 58 mg/dL (Hafif Düşük) | Na⁺: 132 mEq/L (Hafif Düşük) | K⁺: 3.4 mEq/L (Hafif Düşük) | Cl⁻: 92 mEq/L (Düşük) | Ca²⁺: 6.8 mg/dL (Hipoalbüminemiye bağlı / Şiddetli Düşük) | İnorganik Fosfor: 9.8 mg/dL (Yüksek) | Mg²⁺: 1.8 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat",
+          "renal asidoz"
+        ],
+        "content": "Venöz pH: 7.24 (Renal Asidemi / Düşük) (Arteriyel pH: 7.28) (Düşük) | Venöz pCO2: 36 mmHg (Normal) (Arteriyel pCO2: 32 mmHg) (Düşük) | Venöz pO2: 38 mmHg (Normal) (Arteriyel pO2: 90 mmHg) (Normal) | Venöz HCO3⁻: 15.1 mmol/L (Metabolik Asidoz / Düşük) (Arteriyel HCO3⁻: 15.8 mmol/L) (Düşük) | Venöz BE: -9.8 mmol/L (Düşük) (Arteriyel BE: -9.1 mmol/L) (Düşük) | Venöz Laktat: 2.2 mmol/L (Normal) (Arteriyel Laktat: 2.0 mmol/L) (Normal) | Venöz SaO2: %66 (Normal) (Arteriyel SaO2: %95) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph",
+          "protein",
+          "masif proteinüri",
+          "izostenüri",
+          "sediment",
+          "balmumu silendir"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.010 (İzostenüri / Anormal) | pH: 6.2 (Normal) | Protein: ++++ (> 500 mg/dL Masif Proteinüri / Şiddetli Yüksek) | Glikoz: Negatif (Normal) | Keton: Negatif (Normal) | Sediment: Balmumu silendirler (waxy casts) ve dökülmüş böbrek tübül epitel hücreleri."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "ultrason",
+          "böbrek ultrasonu",
+          "ekojenite"
+        ],
+        "content": "Ultrasonda böbreklerde kortikal kalınlaşma ve belirgin hiperekojenik görünüm."
+      }
+    }
+  },
+  "Vaka 8": {
+    "kod": "M6_V4",
+    "sikayet": "Orman kenarındaki otlu meradan döndüğümüzden beri ineğin idrarı kıpkırmızı geliyor. Hayvanın keyfi kaçtı, iştahı azaldı. Ama idrar yaparken ıkınmıyor, sızlanmıyor, gayet rahat yapıyor.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Sığırlarda Enzootik Hematüri (Enzootic Haematuria / Pteridium aquilinum toxicity)",
+      "patofizyoloji": "Eğrelti otu (Pteridium aquilinum) içeren meralarda otlayan sığırlarda otun yapısındaki ptaquiloside glikoziti mesane mukozasında kronik karsinojenik ve hemorajik etki yapar. İdrar kesesinde kanamalı hemangiomlar ve polipoid tümörler gelişir. İdrara sürekli pıhtılı eritrosit karışır (hematüri). Hemoliz yoktur.",
+      "ayirici_tani": "Babesiosis / Hemoglobinüri (plazma ve idrar kırmızısı santrifüjde çökelmez, kan parasitemisi vardır), Pyelonefrit (ateş ve irin vardır).",
+      "tedavi_protokolu": "1) Derhal meradan çıkarma. 2) Hemostatik tedavi: K1 Vitamini / Traneksamik asit. 3) Derin anemide (PCV < %14) kan transfüzyonu.",
+      "koruma_biyogüvenlik": "Eğrelti otunun bol olduğu orman içi meraların ıslah edilmesi veya otlatmaya kapatılması."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "eğrelti otu",
+          "mera",
+          "orman merası"
+        ],
+        "content": "Hayvanın orman kenarındaki meralarda uzun süredir otlatıldığı öğrenilmiştir."
+      },
+      "LOKASYON_RAKIM": {
+        "name": "Lokasyon, Rakım ve Çevre Şartları",
+        "keywords": [
+          "lokasyon",
+          "rakım",
+          "mera",
+          "orman"
+        ],
+        "content": "Rakım: 450 m. Orman kenarı mera."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Geçmiş Hastalık ve Aşı Özgeçmişi",
+        "keywords": [
+          "geçmiş",
+          "özgeçmiş",
+          "kanlı idrar"
+        ],
+        "content": "Son haftalarda aralıklı idrar renginde koyulaşma öyküsü."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Rumen Hareketleri",
+        "keywords": [
+          "iştah",
+          "rumen",
+          "motilite"
+        ],
+        "content": "İştah hafif azalmış (Düşük). Rumen hareketleri: 2 dakikada 1 (Normal/Hafif zayıf)."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Vital Bulgular ve Fiziksel Muayene",
+        "keywords": [
+          "ateş",
+          "nabız",
+          "solunum",
+          "dehidrasyon",
+          "sıcaklık",
+          "crt",
+          "mukoza",
+          "kanlı idrar",
+          "şarap rengi idrar"
+        ],
+        "content": "Rektal Sıcaklık: 38.5 °C (Normal) | Nabız: 84 atım/dk (Hafif Yüksek) | Solunum: 28 nefes/dk (Normal) | Dehidrasyon: %3 (Normal) | Mukozalar: Solgun (Anemi / Düşük) | İdrar Yapma: Ağrısız micturition, homojen şarap kırmızısı idrar (Anormal)."
+      },
+      "OSKULTASYON": {
+        "name": "Oskültasyon ve Muayene Bulguları",
+        "keywords": [
+          "oskültasyon",
+          "kalp sesleri"
+        ],
+        "content": "Kalp ve akciğer oskültasyonu doğal."
+      },
+      "AGRI_TESTLERI": {
+        "name": "Abdominal Ağrı Provokasyon Testleri",
+        "keywords": [
+          "ağrı",
+          "provokasyon",
+          "withers",
+          "götze"
+        ],
+        "content": "Withers ve Götze testleri NEGATİF."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC) Tahlili",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "pcv",
+          "wbc",
+          "rbc",
+          "hb",
+          "fibrinojen",
+          "anemi",
+          "mcv"
+        ],
+        "content": "RBC: 3.4 x10⁶/µL (Derin Anemi / Şiddetli Düşük) | Hb: 5.8 g/dL (Şiddetli Düşük) | PCV: %17 (Derin Anemi / Şiddetli Düşük) | MCV: 52.1 fL (Rejeneratif Yanıt / Yüksek) | MCH: 17.1 pg (Normal) | MCHC: 32.8 g/dL (Normal) | WBC: 12.8 x10³/µL (Normal) | Nötrofil: %60 (Normal) | Band: %4 (Hafif Yüksek) | Lenfosit: %30 (Normal) | Monosit: %4 (Normal) | PLT: 220 x10³/µL (Normal) | Fibrinojen: 410 mg/dL (Normal)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Bütünsellikli Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "ast",
+          "alt",
+          "ggt",
+          "alp",
+          "ck",
+          "bun",
+          "kreatinin",
+          "sdma",
+          "bilirubin"
+        ],
+        "content": "ALT: 26 U/L (Normal) | AST: 125 U/L (Hafif Yüksek) | GGT: 24 U/L (Normal) | ALP: 78 U/L (Normal) | CK: 130 U/L (Normal) | Total Protein: 6.8 g/dL (Normal) | Albümin: 3.2 g/dL (Normal) | Globülin: 3.6 g/dL (Normal) | BUN: 26 mg/dL (Normal) | Serum Kreatinin: 1.4 mg/dL (Normal) | SDMA: 11 µg/dL (Normal) | Total Bilirubin: 0.8 mg/dL (Hemoliz Yok / Normal) | Glikoz: 64 mg/dL (Normal) | Na⁺: 138 mEq/L (Normal) | K⁺: 4.1 mEq/L (Normal) | Cl⁻: 98 mEq/L (Normal) | Ca²⁺: 9.1 mg/dL (Normal) | İnorganik Fosfor: 4.8 mg/dL (Normal) | Mg²⁺: 2.1 mg/dL (Normal)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz & Arteriyel Kan Gazı Analizi",
+        "keywords": [
+          "kan gazı",
+          "ph",
+          "pco2",
+          "po2",
+          "hco3",
+          "be",
+          "laktat"
+        ],
+        "content": "Venöz pH: 7.36 (Normal) (Arteriyel pH: 7.39) (Normal) | Venöz pCO2: 38 mmHg (Normal) (Arteriyel pCO2: 35 mmHg) (Normal) | Venöz pO2: 34 mmHg (Normal) (Arteriyel pO2: 86 mmHg) (Normal) | Venöz HCO3⁻: 22.1 mmol/L (Normal) (Arteriyel HCO3⁻: 22.8 mmol/L) (Normal) | Venöz BE: -1.8 mmol/L (Normal) (Arteriyel BE: -1.2 mmol/L) (Normal) | Venöz Laktat: 2.1 mmol/L (Normal) (Arteriyel Laktat: 1.8 mmol/L) (Normal) | Venöz SaO2: %58 (Normal) (Arteriyel SaO2: %93) (Normal)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili (Urinalysis)",
+        "keywords": [
+          "idrar",
+          "dansite",
+          "usg",
+          "ph",
+          "santrifüj",
+          "hematüri",
+          "eritrosit",
+          "pelet"
+        ],
+        "content": "İdrar Dansitesi (USG): 1.024 (Normal) | pH: 7.2 (Normal) | Santrifüj Testi: İdrar santrifüj edildiğinde tüpün dibine yoğun eritrosit çökeltisi (pelet) çöker, üstteki sıvı tamamen berraklaşır (Gerçek Hematüri Teyit) | İdrar Mikroskopisi: Taze ve parçalanmış çok sayıda eritrosit."
+      },
+      "GORUNTULEME_MIKROBIYOLOJI": {
+        "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
+        "keywords": [
+          "ultrason",
+          "mesane ultrasonu",
+          "polipoid",
+          "tümör"
+        ],
+        "content": "İdrar Kesesi Ultrasonu: Mesane mukoza duvarında polipoid kalınlaşmalar ve vasküler kitleler."
+      }
+    }
+  }
+}
