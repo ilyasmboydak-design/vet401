@@ -1,7 +1,7 @@
 {
   "Vaka 1": {
     "kod": "M5_V1",
-    "sikayet": "Rasyona aniden kırılmış arpa ve mısır oranının %85'e çıkarılmasından 18 saat sonra gelişen şiddetli durgunluk, gri-yeşil ekşi sulu ishal, yatar vaziyette durma, inleme ve tam geviş kesilmesi.",
+    "sikayet": "Bu sabah geldiğimde dana yatıyordu, ne yaptıysak ayağa kalkamadı. Arkasından vıcık vıcık, ekşi kokulu sulu bir ishal gelmiş. Yeme suya hiç dokunmuyor, geviş getirmeyi tamamen kesti, yatıp sürekli inliyor.",
     "egitmen_bilgisi": {
       "kesin_tani": "Akut Laktik Rumen Asidozu (Grain Overload / Acute Rumen Acidosis)",
       "patofizyoloji": "Kolay sindirilebilir nişastalı yemlerin aşırı tüketimi sonucu Streptococcus bovis ve Lactobacillus spp. florada hızla çoğalır. Laktik asit fırlar, rumen pH'sı < 5.0'e düşer. Rumen ozmolaritesi artarak sistemik dolaşımdan rumene masif sıvı çeker (ozmotik dehidrasyon, hemokonsantrasyon). L- ve D-laktat emilimi ağır metabolik asidoza ve D-laktik ensefalopatiye (nörolojik depresyon, yatar vaziyet) neden olur.",
@@ -26,7 +26,7 @@
           "kesif",
           "kaba yem"
         ],
-        "content": "Besi danalarına kırılmış arpa ve mısır oranının dün akşam %30'dan aniden %85'e çıkarıldığı, kaba yem verilmediği bildirilmiştir."
+        "content": "Besinin son aşamasında canlı ağırlık artışını artırmak amacıyla rasyondaki kesif yem miktarı aniden artırılmıştır (günlük kaba yem miktarı 4 kg'dan 1 kg'a düşürülmüş, kırılmış arpa ve mısır miktarı ise günlük 3 kg'dan 9 kg'a çıkarılmıştır)."
       },
       "LOKASYON_RAKIM": {
         "name": "Lokasyon, Rakım ve Çevre Şartları",
@@ -88,7 +88,7 @@
           "rektal derece",
           "kalp frekansı"
         ],
-        "content": "Rektal Sıcaklık: 37.1 °C (Hipotermi / Düşük) | Nabız: 118 atım/dk (Zayıf, filiform / Yüksek) | Solunum: 70 nefes/dk (derin solunum / Yüksek) | Dehidrasyon: %10 (Göz küresi 8 mm çukurda, deri çadırlaşması 12 sn / Şiddetli Yüksek) | Mukozalar: Kuru ve siyanotik (Düşük Perfüzyon)."
+        "content": "Rektal Sıcaklık: 37.1 °C (Hipotermi / Düşük) | Nabız: 118 atım/dk (Zayıf/ Yüksek) | Solunum: 70 nefes/dk (derin solunum / Yüksek) | Dehidrasyon: %10 (Göz küresi 8 mm çukurda, deri çadırlaşması 12 sn / Şiddetli Yüksek) | Mukozalar: Kuru ve siyanotik (Düşük Perfüzyon)."
       },
       "OSKULTASYON": {
         "name": "Oskültasyon ve Muayene Bulguları",
@@ -102,7 +102,7 @@
           "kalp sesleri",
           "dinleme"
         ],
-        "content": "Sol açlık çukurunda belirgin su çalkantı sesi (succussion splash) alınıyor (Anormal)."
+        "content": "Sol açlık çukurunda belirgin su çalkantı sesi alınıyor (Anormal)."
       },
       "AGRI_TESTLERI": {
         "name": "Abdominal Ağrı Provokasyon Testleri",
@@ -212,7 +212,6 @@
       "GORUNTULEME_MIKROBIYOLOJI": {
         "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
         "keywords": [
-          "ultrason",
           "rumen sıvısı",
           "ph",
           "metilen mavisi",
@@ -387,7 +386,6 @@
       "GORUNTULEME_MIKROBIYOLOJI": {
         "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
         "keywords": [
-          "ultrason",
           "rumen sıvısı",
           "ph",
           "bütirik asit",
@@ -404,7 +402,7 @@
   },
   "Vaka 3": {
     "kod": "M5_V3",
-    "sikayet": "Yem karmasının içeriğini değiştirip yeni bir protein katkısı ve üre eklemiştik. İnek iki gündür yememeye başladı. Yanına gittiğimde ağzından keskin, idrar benzeri bir kokulu nefes geliyor. Dışkısı çok az, koyu renkli ve çamur gibi cıvık yapıda.",
+    "sikayet": "Yem karmasının içeriğini değiştirip yeni bir protein katkısı eklemiştik. İnek iki gündür yememeye başladı. Yanına gittiğimde ağzından keskin, idrar benzeri bir kokulu nefes geliyor. Dışkısı çok az, koyu renkli ve çamur gibi cıvık yapıda.",
     "egitmen_bilgisi": {
       "kesin_tani": "Rumen Alkalozu ve Amonyak Toksisitesi (Ruminal Alkalosis & Ammonia Toxicity)",
       "patofizyoloji": "Rasyona aşırı üre veya bozulmuş yüksek proteinli yem eklenmesi sonucu rumende mikrobiyel üreaz enzimi hızla amonyak (NH3) üretir. Rumen pH'sı > 7.5 üzerine çıkar. Amonyak emilerek kana geçer, karaciğerin üre siklusu kapasitesi aşılır (hiperamonyemi). Ağır sistemik alkaloz, nörolojik depresyon ve rumen atonisi şekillenir.",
@@ -425,7 +423,7 @@
           "amonyak",
           "protein katkısı"
         ],
-        "content": "Rasyona 2 gün önce kontrolsüz üre ve yeni bir protein yem katkısı eklendiği bildirilmiştir."
+        "content": "Rasyona 2 gün önce kontrolsüz yeni bir protein yem katkısı eklendiği bildirilmiştir."
       },
       "LOKASYON_RAKIM": {
         "name": "Lokasyon, Rakım ve Çevre Şartları",
@@ -553,7 +551,6 @@
       "GORUNTULEME_MIKROBIYOLOJI": {
         "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
         "keywords": [
-          "ultrason",
           "rumen sıvısı",
           "ph",
           "amonyak",

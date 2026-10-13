@@ -142,7 +142,7 @@
           "sonda",
           "üretra"
         ],
-        "content": "Tam Anüri (İdrar çıkarılamıyor, üretra tıkalı)."
+        "content": "Tam Anüri."
       },
       "GORUNTULEME_MIKROBIYOLOJI": {
         "name": "Görüntüleme, Ultrasonografi ve Rumen Sıvısı Analizi",
@@ -159,7 +159,7 @@
   },
   "Vaka 6": {
     "kod": "M6_V2",
-    "sikayet": "İnek doğum yapalı bir hafta oldu, doğum biraz zor geçmişti. Birkaç gündür idrarını yaparken sırtını kamburlaştırıp sızlanıyor. İdrarın sonuna doğru kanlı pıhtılar ve sarımsı iltihap parçaları düşüyor. Sütü yarı yarıya azaldı, ateşi de var.",
+    "sikayet": "İnek doğum yapalı bir hafta oldu, doğum biraz zor geçmişti. Birkaç gündür idrarını yaparken sırtını kamburlaştırıp sızlanıyor. İdrarın hafif kanlı geliyor. Sütü yarı yarıya azaldı.",
     "egitmen_bilgisi": {
       "kesin_tani": "Bakteriyel Pyelonefrit (Contagious Bovine Pyelonephritis / Corynebacterium renale)",
       "patofizyoloji": "Genişleyen uterus veya doğum travması sonrası Corynebacterium renale veya E. coli üretradan yukarı tırmanarak (asendens enfeksiyon) idrar kesesi, üreterler ve böbrek pelvisinde bakteriyel purulent iltihap oluşturur. Böbrek dokusunda mikroapseler gelişir. İdrarda irin, kan, fibrin ve bakteri bulunur.",
@@ -195,7 +195,7 @@
           "güç doğum",
           "distosi"
         ],
-        "content": "1 hafta önce güç doğum (distosi) öyküsü mevcut."
+        "content": "1 hafta önce güç doğum öyküsü mevcut."
       },
       "ISTAH_DURUMU": {
         "name": "İştah ve Rumen Hareketleri",
@@ -474,7 +474,7 @@
   },
   "Vaka 8": {
     "kod": "M6_V4",
-    "sikayet": "Orman kenarındaki otlu meradan döndüğümüzden beri ineğin idrarı şarap gibi kıpkırmızı geliyor. Hayvanın keyfi kaçtı, iştahı azaldı. Ama idrar yaparken ıkınmıyor, sızlanmıyor, gayet rahat yapıyor.",
+    "sikayet": "Orman kenarındaki otlu meradan döndüğümüzden beri ineğin idrarı kıpkırmızı geliyor. Hayvanın keyfi kaçtı, iştahı azaldı. Ama idrar yaparken ıkınmıyor, sızlanmıyor, gayet rahat yapıyor.",
     "egitmen_bilgisi": {
       "kesin_tani": "Sığırlarda Enzootik Hematüri (Enzootic Haematuria / Pteridium aquilinum toxicity)",
       "patofizyoloji": "Eğrelti otu (Pteridium aquilinum) içeren meralarda otlayan sığırlarda otun yapısındaki ptaquiloside glikoziti mesane mukozasında kronik karsinojenik ve hemorajik etki yapar. İdrar kesesinde kanamalı hemangiomlar ve polipoid tümörler gelişir. İdrara sürekli pıhtılı eritrosit karışır (hematüri). Hemoliz yoktur.",
