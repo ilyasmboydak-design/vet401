@@ -1,0 +1,1495 @@
+{
+  "Vaka 1 — Doğumdan 2 Hafta Sonra Seçici İştahsızlık, Sol Karında Çelik Çınlaması ve Paradoksal Asidürili İnek (M10_V1)": {
+    "kod": "M10_V1",
+    "sikayet": "Doğumunu 14 gün önce gerçekleştiren 4 yaşında yüksek verimli Holştayn süt ineğinde son 4 gündür başlayan seçici anoreksi (kesif yemi tamamen bırakıp sadece az miktarda kuru ot tüketimi), süt veriminde keskin düşüş, zayıflama, sol açlık çukurunda çökme ve nefeste ekşimsi keton kokusu.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Sola Abomasum Deplasmanı (LDA — Left Displaced Abomasum)",
+      "patofizyoloji": "Doğum sonrası kuru madde alımının düşmesi, subklinik hipokalsemi veya aşırı kesif yem kaynaklı uçucu yağ asitleri abomasum düz kasında atoniye yol açar. Gazla dolan ve genişleyen abomasum, ventralden sola kayarak rumen ile sol karın duvarı arasına dorsal olarak yer değiştirir. Abomasum bezlerinden salgılanan hidroklorik asit (HCl) duodenuma geçemez ve abomasum lümeninde sekestre olur. Dolaşımdan çekilen klor ve hidrojen iyonları nedeniyle kanda hipokloremik, hipokalemik metabolik alkaloz gelişir. Dehidrasyon ve hipokalemi derinleştikçe böbrek tübüllerinde sodyumu geri emebilmek için potasyum yerine hidrojen iyonları idrara pompalanır ve paradoksal asidüri (kanda alkaloz varken asidik idrar) şekillenir.",
+      "ayirici_tani": "Primer Ketonemi/Ketozis (sol tarafta çelik tınlama 'ping' sesi yoktur, glukoza hızla yanıt verir), Rumen Atonisi/Basit İndigesyon (sol taraftaki tınlama sesi daha donuk ve yaygındır, hipokloremi gelişmez), Sol Taraflı Pnömotoraks veya Karın Duvarı Apseleri (ultrasonla abomasum kıvrımları görülmez).",
+      "tedavi_protokolu": "1) Sıvı-Elektrolit Desteği: Masif klor ve potasyum açığını kapatmak için intravenöz %0.9 NaCl (Serum Fizyolojik) içine potasyum klorür (20-40 mEq KCl/L) eklenerek bol miktarda verilmelidir. 2) Cerrahi Düzeltme: Sağ fossa paralumbalisten omentopeksi/abomasopeksi (Utrecht veya Hannover yöntemi), sol paralumbal laparotomi veya perkütan kapalı dikiş (Roll-and-Toggle). 3) Eşlik Eden Ketozis Tedavisi: İV dekstroz ve oral propilen glikol. 4) Kalsiyum desteği.",
+      "koruma_biyogüvenlik": "Geçiş döneminde (kuru dönemin son 3 haftası ve erken laktasyon) rasyonun kaba/kesif yem dengesi korunmalı, subklinik hipokalsemi anyonik tuzlarla önlenmeli ve ani yem değişikliklerinden kaçınılmalıdır."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "kesif yem",
+          "konsantre yem",
+          "fabrika yemi",
+          "süt yemi",
+          "silaj",
+          "mısır silajı",
+          "saman",
+          "kuru ot",
+          "nişasta",
+          "tahıl"
+        ],
+        "content": "Doğumdan hemen sonra süt verimini artırmak için günlük 10 kg yüksek nişastalı fabrika yemi verilmiş; kuru ot miktarı azaltılmış."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak Koşulları",
+        "keywords": [
+          "ahır",
+          "barınak",
+          "bağlı durak",
+          "durak",
+          "doğumhane",
+          "zemin",
+          "hareket alanı"
+        ],
+        "content": "Bireysel bağlı duraklı işletme; hareket alanı kısıtlı."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "sürü",
+          "yaş",
+          "ırk",
+          "holştayn",
+          "laktasyon",
+          "buzağılama",
+          "doğum",
+          "ikiz",
+          "ikiz doğum",
+          "süt verimi",
+          "hipokalsemi"
+        ],
+        "content": "4 yaşında, 3. buzağılama; 14 gün önce ikiz doğum yapmış; doğum sonrası hafif hipokalsemi tedavisi görmüş."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah, Çiğneme ve Yutkunma",
+        "keywords": [
+          "iştah",
+          "iştahsızlık",
+          "anoreksi",
+          "seçici iştah",
+          "yem seçme",
+          "yem reddi",
+          "geviş",
+          "ruminasyon",
+          "çiğneme",
+          "dışkı",
+          "dışkılama"
+        ],
+        "content": "seçici anoreksi: Konsantre süt yemini tamamen reddediyor; önüne atılan kaba samandan sadece birkaç lokma çiğneyip bırakıyor."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "sıcaklık",
+          "vücut ısısı",
+          "derece",
+          "nabız",
+          "kalp frekansı",
+          "solunum",
+          "solunum sayısı",
+          "nefes",
+          "mukozalar",
+          "konjunktiva",
+          "rumen hareketleri",
+          "rumen kontraksiyonu",
+          "keton kokusu",
+          "aseton kokusu"
+        ],
+        "content": "Rektal Sıcaklık: 38.4 °C (Normal) | Nabız: 78 atım/dk (Normal) | Solunum: 22 nefes/dk (Normal) | Mukozalar: Pembe-hafif solgun | Rumen kontraksiyonları: 5 dakikada 1 kez | Nefeste hafif aseton kokusu."
+      },
+      "FIZIKSEL_OSKULTASYON": {
+        "name": "Fiziksel Muayene ve Oskültasyon Bulguları",
+        "keywords": [
+          "fiziksel muayene",
+          "muayene",
+          "oskültasyon",
+          "perküsyon",
+          "dinleme",
+          "stetoskop",
+          "ping",
+          "ping sesi",
+          "çelik çınlaması",
+          "metalik çınlama",
+          "tınlama",
+          "çalkantı",
+          "çalkantı sesi",
+          "suküsyon",
+          "sol karın",
+          "sol açlık çukuru",
+          "fossa paralumbalis",
+          "9-11 kaburga",
+          "kaburga"
+        ],
+        "content": "Sol karın duvarında, 9-11. kaburgalar arasında kürek kemiği-dirsek hattı boyunca yapılan eş zamanlı oskültasyon ve perküsyonda patognomonik yüksek perdeli çelik çınlaması ('Ping' sesi) duyuldu; karın sallandığında abomasal sıvı çalkantı sesi alındı."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "hematokrit",
+          "hemoglobin",
+          "hb",
+          "lökosit",
+          "alyuvar",
+          "akyuvar",
+          "fibrinojen",
+          "dehidrasyon"
+        ],
+        "content": "RBC: 6.8 x10⁶/µL | Hb: 10.8 g/dL | PCV: %34 (Hafif dehidrasyon) | WBC: 7.2 x10³/µL (Normal) | Nötrofil: %45 | Lenfosit: %49 | Fibrinojen: 350 mg/dL (Normal - akut yangı yok)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası ve Elektrolit Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "elektrolit",
+          "klor",
+          "cl",
+          "serum kloru",
+          "potasyum",
+          "k",
+          "serum potasyumu",
+          "sodyum",
+          "na",
+          "kalsiyum",
+          "ca",
+          "bhba",
+          "beta-hidroksibütirat",
+          "nefa",
+          "serbest yağ asidi",
+          "ketonemi"
+        ],
+        "content": "Serum Kloru (Cl⁻): 78 mEq/L (azalmış / Ref: 95-110 mEq/L - Abomasal sekestrasyon) | Serum Potasyumu (K⁺): 2.8 mEq/L (Belirgin azalmış / Ref: 3.9-5.2 mEq/L) | Serum Sodyumu (Na⁺): 136 mEq/L (Normal) | Total Kalsiyum: 8.2 mg/dL (Hafif düşük) | Plazma BHBA: 2.8 mmol/L (Artmış - sekonder ketonemi) | Serbest Yağ Asitleri (NEFA): 1.15 mEq/L (Artmış)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı ve Asit-Baz Analizi",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "asit baz",
+          "ph",
+          "kan ph",
+          "alkaloz",
+          "metabolik alkaloz",
+          "hco3",
+          "bikarbonat",
+          "be",
+          "baz fazlalığı",
+          "pco2",
+          "laktat"
+        ],
+        "content": "Venöz pH: 7.51 (Belirgin Metabolik Alkaloz / Ref: 7.35-7.45) | Venöz pCO2: 48 mmHg (Kompansatuvar artış) | Venöz HCO3⁻: 35.5 mmol/L (Aşırı artmış / Ref: 20-28 mmol/L) | Venöz BE: +11.2 mmol/L (Aşırı baz fazlalığı) | L-Laktat: 1.4 mmol/L (Normal - doku iskemisi yok)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili ve Paradoksal Asidüri",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "idrar testi",
+          "strip",
+          "idrar ph",
+          "asit idrar",
+          "asidik idrar",
+          "paradoksal asidüri",
+          "asidüri",
+          "keton",
+          "idrar ketonu",
+          "ketonüri",
+          "protein"
+        ],
+        "content": "İdrar pH: 5.5 (Belirgin Asidik - Paradoksal Asidüri: Sistemik kanda ağır alkaloz varken dehidrasyon ve hipokalemi nedeniyle idrarın asidik çıkması) | İdrar Ketonu: ++ | İdrar Proteini: Eser | Sediment: Temiz."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Özel Diagnostik Testler ve Ultrasonografi",
+        "keywords": [
+          "özel test",
+          "görüntüleme",
+          "ultrason",
+          "usg",
+          "abomasum kıvrımları",
+          "parasentez",
+          "ponksiyon",
+          "liptak",
+          "liptak testi",
+          "abomasum ph"
+        ],
+        "content": "Sol Abdominal Ultrasonografi: Sol 10. interkostal aralıkta rumen ile karın duvarı arasında abomasum mukozal kıvrımları ve lümen içi ekojenik sıvı tespit edildi. Liptak Testi: Sol 'ping' alanından yapılan parasentezde alınan sıvının pH'sı 2.5 (abomasum içeriği doğrulandı)."
+      }
+    }
+  },
+  "Vaka 2 — Katran Karası Cıvık Dışkı (Melena), Porselen Beyazı Mukozalar ve Şiddetli Anemili Süt İneği (M10_V2)": {
+    "kod": "M10_V2",
+    "sikayet": "Doğumdan 45 gün sonra günde 36 litre süt veren Holştayn inekte son 2 gündür süt veriminin 8 litreye düşmesi, yem yemeyi tamamen bırakma, halsizlik, sendeleme, inlemeli nefes alma, diş gıcırdatma ve rektumdan katran karası, cıvık, pis kokulu dışkı gelmesi.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Kanamalı / Melenalı Abomasum Ülseri (Tip II Ülser — Bleeding Abomasal Ulcer)",
+      "patofizyoloji": "Pik laktasyon stresi, yüksek konsantre yem ve subakut rumen asidozu abomasum mukozal koruyucu prostaglandin (özellikle PGE2) sentezini baskılar. Mukozal bariyer çökünce lümendeki HCl ve pepsin abomasum fundus ve pilorus mukozasını sindirmeye başlar. Ülser krateri submukoza ve muskularis tabakasındaki büyük arteriyel dalları (A. gastrica dalları) erozyona uğrattığında masif lümen içi kanama başlar. Mide asidi ve sindirim enzimleri kan hemoglobinini hematine dönüştürür; ince bağırsaktan geçerken sindirilen kan rektumdan katran karası melena olarak atılır. Aşırı kan kaybı akut post-hemorajik anemi, taşikardi ve hipovolemi yaratır; emilen kan proteinleri prerenal azotemiye yol açar.",
+      "ayirici_tani": "Kaudal Vena Kava Trombozu (CVCT - solunum sisteminde hemoptizi/burundan köpüklü kan vardır), İntussusception/İnvaginasyon (dışkı melena değil vişne çürüğü jölesi kıvamındadır, tam mekanik ileus vardır), Enzootik Hematüri (kan idrarladır, dışkı normaldir), Basiller Hemoglobinüri (intravasküler hemolizdir, idrar kırmızıdır).",
+      "tedavi_protokolu": "1) Asit Baskılama ve Mukozal Koruma: Oral Antiasitler (Magnezyum Oksit/Alüminyum Hidroksit 500-1000 g), Sukralfat jelleri, parenteral H2 reseptör blokörleri (Ranitidin) veya Proton Pompa İnhibitörleri (Omeprazol 1-2 mg/kg İV). 2) Kan Transfüzyonu: PCV <%14 seviyesine indiğinde 4-8 litre taze tam kan transfüzyonu. 3) Sıvı ve Kan Yapıcı Destek: İzotonik NaCl, B12 vitamini, demir preparatları. 4) Parenteral Geniş Spektrumlu Antibiyotik (perforasyon tehdidine karşı).",
+      "kirmizi_hat": "HAYATİ KONTRENDİKASYON: Ülser şüphesi olan hayvana ağrı kesici veya yangı giderici amacıyla Flunixin meglumine, Meloksikam veya Ketoprofen gibi Non-Steroid Antiinflamatuvar İlaçlar (NSAİİ) veya Kortikosteroid verilmesi KESİNLİKLE YASAKTIR! Bu ilaçlar mukozal prostaglandin sentezini tamamen sıfırlayarak ülseri anında perfore eder (Tip IV peritonit) ve hastayı saatler içinde öldürür.",
+      "koruma_biyogüvenlik": "Pik süt döneminde rasyonun kaba yem oranı ve lif etkinliği (peNDF) artırılmalı, aşırı tahıl yüklemesinden kaçınılmalı, tampon maddeler (sodyum bikarbonat) rasyona katılmalı ve sürüde sosyal/fiziksel stres faktörleri en aza indirilmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "kesif yem",
+          "konsantre yem",
+          "arpa",
+          "arpa ezmesi",
+          "mısır silajı",
+          "tahıl",
+          "asidoz",
+          "kaba yem lifi"
+        ],
+        "content": "Pik süt döneminde rasyonun %65'i yüksek nişastalı arpa ezmesi ve mısır silajından oluşuyor; kaba yem çiğneme süresi çok kısa."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak Koşulları",
+        "keywords": [
+          "ahır",
+          "barınak",
+          "padok",
+          "sıcaklık stresi",
+          "kalabalık"
+        ],
+        "content": "Yüksek verimli grup padoğu; yaz başlangıcı ve sıcaklık stresi mevcut."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "sürü",
+          "yaş",
+          "ırk",
+          "holştayn",
+          "laktasyon",
+          "pik süt",
+          "süt verimi",
+          "süt düşüşü",
+          "topallık",
+          "ilaç geçmişi"
+        ],
+        "content": "5 yaşında Holştayn; günlük süt verimi 38 litreden aniden 8 litreye inmiş; 1 hafta önce hafif topallık nedeniyle ilaç kullanılmış."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah, Çiğneme ve Yutkunma",
+        "keywords": [
+          "iştah",
+          "iştahsızlık",
+          "anoreksi",
+          "tam anoreksi",
+          "yem yememe",
+          "diş gıcırdatma",
+          "bruksizm",
+          "inleme",
+          "dışkı",
+          "dışkılama",
+          "melena",
+          "katran dışkı",
+          "siyah dışkı",
+          "kanlı dışkı"
+        ],
+        "content": "Tam anoreksi; hiçbir yem tüketmiyor; sürekli diş gıcırdatma ve sessiz inlemeler mevcut."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "sıcaklık",
+          "nabız",
+          "kalp atımı",
+          "taşikardi",
+          "hızlı nabız",
+          "solunum",
+          "solunum sayısı",
+          "polipne",
+          "mukozalar",
+          "konjunktiva",
+          "solgunluk",
+          "soluk mukoza",
+          "porselen beyazı",
+          "diş etleri"
+        ],
+        "content": "Rektal Sıcaklık: 38.2 °C (Normal) | Nabız: 112 atım/dk (Şiddetli anemi ve hipovolemiye bağlı taşikardi) | Solunum: 44 nefes/dk (Polipneik) | Mukozalar: Porselen beyazı aşırı solgun (solgun konjunktiva ve diş etleri)."
+      },
+      "FIZIKSEL_OSKULTASYON": {
+        "name": "Fiziksel Muayene ve Palpasyon Bulguları",
+        "keywords": [
+          "fiziksel muayene",
+          "muayene",
+          "palpasyon",
+          "oskültasyon",
+          "sağ karın",
+          "abomasum bölgesi",
+          "hipokondriyal",
+          "ağrı",
+          "karın ağrısı",
+          "inleme",
+          "hemic üfürüm",
+          "kalp üfürümü",
+          "rektal muayene",
+          "melena"
+        ],
+        "content": "Sağ hipokondriyal bölgede (abomasum projeksiyonu) derin palpasyonda şiddetli ağrı tepkisi ve geri çekilme; oskültasyonda çelik tınlama sesi yok; kalpte sistolik 'hemic' fonksiyonel üfürüm sesi; rektal muayenede ele gelen dışkı katran gibi simsiyah, parıltılı, cıvık ve çok pis kokulu (Melena)."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "hematokrit",
+          "hemoglobin",
+          "hb",
+          "alyuvar",
+          "akyuvar",
+          "anemi",
+          "şiddetli anemi",
+          "ağır anemi",
+          "normositer",
+          "trombosit",
+          "fibrinojen"
+        ],
+        "content": "RBC: 2.9 x10⁶/µL (Şiddetli azalmış) | Hb: 4.4 g/dL (Şiddetli azalmış) | PCV: %13 (Ağır normositer normokromik anemi / Hayati tehlike eşiği) | WBC: 9.8 x10³/µL (Normal) | Trombosit: 320 x10³/µL | Fibrinojen: 520 mg/dL (Hafif artmış)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "bun",
+          "üre",
+          "kan üre azotu",
+          "kreatinin",
+          "total protein",
+          "protein",
+          "albümin",
+          "hipoproteinemi",
+          "demir",
+          "serum demiri",
+          "bilirubin",
+          "ast"
+        ],
+        "content": "BUN: 48 mg/dL (Belirgin artmış / Ref: 10-25 mg/dL - Bağırsaktan şiddetli kan proteini emilimi ve prerenal azotemi) | Serum Kreatinin: 1.3 mg/dL (Normal) | Total Protein: 4.8 g/dL (Azalmış - Kan kaybı hipoproteinemisi) | Albümin: 2.1 g/dL (Azalmış) | Total Bilirubin: 0.4 mg/dL (Normal) | Serum Demir Düzeyi: Şiddetli azalmış."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "ph",
+          "hco3",
+          "bikarbonat",
+          "laktat",
+          "hipoksi",
+          "doku hipoksisisi"
+        ],
+        "content": "Venöz pH: 7.33 (Hafif asidemi) | Venöz HCO3⁻: 20.5 mmol/L | L-Laktat: 3.8 mmol/L (Doku hipoksisine bağlı artmış)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "idrar rengi",
+          "berrak idrar",
+          "hematüri",
+          "hemoglobinüri",
+          "protein"
+        ],
+        "content": "İdrar Rengi: Açık sarı ve tamamen berrak (Hemoglobinüri ve hematüri kesinlikle yok) | Protein: Eser | Keton: Eser."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Özel Diagnostik Testler ve Dışkı Analizi",
+        "keywords": [
+          "özel test",
+          "dışkı tahlili",
+          "fobt",
+          "gizli kan",
+          "dışkıda gizli kan",
+          "guaiac",
+          "guaiac testi",
+          "melena testi",
+          "kan frotisi",
+          "parazit taraması"
+        ],
+        "content": "Dışkıda Gizli Kan Testi (Guaiac / FOBT): ++++ (Saniyeler içinde koyu mavi renk değişimi - üst sindirim kanaması doğrulandı). Kan frotisinde kan paraziti saptanmadı."
+      }
+    }
+  },
+  "Vaka 3 — Sağ Açlık Çukurunda Geniş Çelik Çınlaması, Sosis Şeklinde Organ Palpasyonu ve Dışkı Kesilmesi (M10_V3)": {
+    "kod": "M10_V3",
+    "sikayet": "Doğumdan 5 hafta sonra Simental melezi inekte 2 gündür dışkılamanın tamamen durması, rektal muayenede sadece az miktarda yapışkan koyu mukus gelmesi, sağ açlık çukurunda yukarıya doğru kubbeleşen şişkinlik, huzursuzluk ve arka ayağını karnına vurma.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Sığırlarda Çekum Dilatasyonu ve Torsiyonu (Typhlitis & Cecal Volvulus)",
+      "patofizyoloji": "Aşırı fermente edilebilir karbonhidratların ince bağırsaktan kör bağırsağa (çekum) geçmesiyle burada mikrobiyal fermantasyon patlar; üretilen yüksek konsantrasyondaki uçucu yağ asitleri (özellikle bütirat) çekum düz kasında atoni ve felç yaratır. Gaz ve sıvıyla dolan kör kese önce dilate olur ve sağ açlık çukuruna doğru genişler. Zamanında müdahale edilmezse gergin kese kendi mezenterik ekseni etrafında döner (volvulus/torsiyon). Torsiyon sonucu çekal damarlar boğulur; venöz staz, ödem, mukozal nekroz ve mekanik tam ileus şekillenir.",
+      "ayirici_tani": "Sağa Abomasum Deplasmanı/Volvulusu (RDA - ping sesi kranialdedir, 9-12. kaburgalardadır, rektal muayenede organ ele gelmez), İntussusception (vişne jölesi mukus vardır, ultrasonda hedef tahtası görülür), İnce Bağırsak İnkarsarasyonu (şiddetli refrakter ağrı vardır).",
+      "tedavi_protokolu": "1) Basit Dilatasyonda Medikal Tedavi: Rasyonun tamamen kesilmesi, oral ve İV sıvı sağaltımı, kalsiyum ve parasempatomimetik motilite ajanları (sadece torsiyon yoksa!). 2) Cerrahi Tedavi (Torsiyon Varsa Acil): Sağ fossa paralumbalis laparotomisi; çekumun yara dudaklarından dışarı alınması, tepe noktasından (apeks) ensizyon yapılarak gaz ve fermente içeriğin tamamen boşaltılması (tiflotomi), lümenin yıkanması ve detorsiyonu. Nekroz varsa tiflektomi (çekumun ampute edilmesi).",
+      "kirmizi_hat": "HAYATİ TEHLİKE: Çekum torsiyonu gelişmiş bir hayvana neostigmin gibi motilite artırıcı ilaçlar verilmesi organı patlatır (rüptür). RDA ile karıştırılarak trokarla rastgele delinmesi fokal veya yaygın peritonite yol açar; mutlaka rektal muayene ile teyit edilmelidir.",
+      "koruma_biyogüvenlik": "Besi ve süt rasyonlarında aşırı konsantre yemden kaçınılmalı, rasyonun lif dengesi korunmalı ve ani tane yem artışları engellenmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "kesif yem",
+          "konsantre yem",
+          "arpa",
+          "arpa ezmesi",
+          "mısır silajı",
+          "tahıl",
+          "fermantasyon",
+          "lif azlığı"
+        ],
+        "content": "Son 10 gündür süt verimini zorlamak için kaba yem azaltılıp arpa ezmesi ve mısır silajı yoğun şekilde artırılmış."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak Koşulları",
+        "keywords": [
+          "ahır",
+          "barınak",
+          "serbest durak",
+          "padok"
+        ],
+        "content": "Grup bölmeli serbest duraklı ahır."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "sürü",
+          "yaş",
+          "ırk",
+          "simental",
+          "laktasyon",
+          "buzağılama",
+          "doğum",
+          "süt verimi"
+        ],
+        "content": "4 yaşında, 2. buzağılama Simental; doğumdan sonra 35. gününde; daha önce belirgin hastalık öyküsü yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Dışkılama",
+        "keywords": [
+          "iştah",
+          "iştahsızlık",
+          "anoreksi",
+          "tam anoreksi",
+          "geviş",
+          "dışkı",
+          "dışkılama",
+          "dışkı kesilmesi",
+          "dışkı yapamama",
+          "ileus",
+          "mukuslu dışkı"
+        ],
+        "content": "Son 36 saattir sıfır dışkılama; yemlikteki yeme hiç dokunmuyor; geviş getirme tamamen durmuş."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "sıcaklık",
+          "nabız",
+          "kalp frekansı",
+          "taşikardi",
+          "solunum",
+          "solunum sayısı",
+          "mukozalar",
+          "dehidrasyon",
+          "turgor"
+        ],
+        "content": "Rektal Sıcaklık: 38.6 °C (Normal) | Nabız: 88 atım/dk (Ağrıya bağlı orta taşikardi) | Solunum: 28 nefes/dk | Mukozalar: Pembe-hafif kuru (orta dehidrasyon)."
+      },
+      "FIZIKSEL_OSKULTASYON": {
+        "name": "Fiziksel Muayene ve Oskültasyon Bulguları",
+        "keywords": [
+          "fiziksel muayene",
+          "muayene",
+          "oskültasyon",
+          "perküsyon",
+          "ping",
+          "ping sesi",
+          "çelik çınlaması",
+          "tınlama",
+          "sağ karın",
+          "sağ açlık çukuru",
+          "fossa paralumbalis",
+          "son kaburgalar",
+          "12-13 kaburga",
+          "karın şişliği",
+          "sancı",
+          "kolik"
+        ],
+        "content": "Sağ açlık çukurunda (fossa paralumbalis) ve son 2 kaburga (12-13. kostalar) üzerinde çok geniş bir alanda yüksek rezonant çelik çınlaması ('Ping' sesi) duyuldu; perküsyonda timpanik ses alındı."
+      },
+      "REKTAL_MUAYENE": {
+        "name": "Rektal Palpasyon Bulguları (Kritik Tanı)",
+        "keywords": [
+          "rektal",
+          "rektal muayene",
+          "rektal palpasyon",
+          "elle muayene",
+          "çekum palpasyonu",
+          "çekum apeksi",
+          "lobut",
+          "sosis",
+          "sosis şeklinde kitle",
+          "gergin organ",
+          "kör kese",
+          "pelvis girişi",
+          "boş rektum",
+          "mukus"
+        ],
+        "content": "Rektal muayenede rektum tamamen boş ve duvarları yapışkan mukusla kaplı; pelvis boşluğunun sağ girişinde kör bir kese halinde arkaya doğru uzanan, basketbol topu/büyük bir sosis kalınlığında, gergin, gaz ve sıvı dolu çekum apeksi doğrudan palpe edildi."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "hematokrit",
+          "hemoglobin",
+          "lökosit",
+          "fibrinojen",
+          "dehidrasyon"
+        ],
+        "content": "RBC: 7.6 x10⁶/µL | Hb: 11.9 g/dL | PCV: %38 (Dehidrasyon) | WBC: 8.8 x10³/µL (Normal) | Fibrinojen: 410 mg/dL (Normal)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "elektrolit",
+          "potasyum",
+          "k",
+          "klor",
+          "cl",
+          "sodyum",
+          "na",
+          "kalsiyum",
+          "ca",
+          "bilirubin"
+        ],
+        "content": "Serum Kloru: 88 mEq/L (Azalmış) | Serum Potasyumu: 3.1 mEq/L (Azalmış) | Serum Sodyumu: 138 mEq/L | Total Kalsiyum: 8.4 mg/dL | Total Bilirubin: 0.3 mg/dL."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "asit baz",
+          "ph",
+          "alkaloz",
+          "metabolik alkaloz",
+          "hco3",
+          "bikarbonat",
+          "be",
+          "laktat"
+        ],
+        "content": "Venöz pH: 7.48 (Hafif alkoloz) | Venöz HCO3⁻: 31.0 mmol/L (Artmış) | L-Laktat: 2.4 mmol/L (Hafif artmış)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "idrar ph",
+          "protein",
+          "keton"
+        ],
+        "content": "İdrar pH: 7.0 | Keton: Eser | Protein: Negatif."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Transabdominal Ultrasonografi",
+        "keywords": [
+          "özel test",
+          "görüntüleme",
+          "ultrason",
+          "usg",
+          "çekum çapı",
+          "bağırsak çapı",
+          "paralumbal ultrason",
+          "motilite"
+        ],
+        "content": "Sağ paralumbal bölge ultrasonografisinde çapı 25 cm'yi aşmış, motilitesi tamamen durmuş, lümeni hiperekojen gaz ve heterojen sıvı ile dolu kör bağırsak halkası görüntülendi."
+      }
+    }
+  },
+  "Vaka 4 — Biberonla Süt İçtikten Sonra Sağ Karnı Davul Gibi Şişen, Şiddetli Sancılı ve Laktik Asidozlu Buzağı (M10_V4)": {
+    "kod": "M10_V4",
+    "sikayet": "3 haftalık erkek Holştayn buzağıda akşam kovadan hızlıca 3 litre soğuk süt ikame yemi içirildikten 1.5 saat sonra aniden başlayan sağ karın duvarında davul gibi aşırı gerginlik, debelenme, inleme, diş gıcırdatma, solunum güçlüğü, ağızdan köpük gelmesi ve şoka girme.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Buzağıların Abomasal Timpanisi ve Abomasitisi (Abomasal Bloat & Abomasitis)",
+      "patofizyoloji": "Buzağıya bir öğünde aşırı hacimde, soğuk, hatalı karıştırılmış yüksek osmolaliteli süt veya mamanın hızla içirilmesi abomasum motilitesini kilitler ve mide boşalmasını geciktirir. Lümen içinde fırsatçı gaz oluşturan bakteriler (*Sarcina ventriculi* veya *Clostridium perfringens* Tip A) masif çoğalarak fermente karbonhidratlardan yoğun gaz üretir. Abomasum aşırı derecede gerilerek sağ karın boşluğunu tamamen doldurur ve diyaframa baskı yaparak asfiksiye yol açar. Mukozal iskemik nekroz, amfizematöz abomasitis ve bakteriyel endotoksinlerin kana karışmasıyla ölümcül endotoksemik şok ve ağır metabolik laktik asidoz gelişir.",
+      "ayirici_tani": "Rumen Timpanisi/Şişkinliği (sol açlık çukuru şişer, rumen sondası takılınca gaz hızla boşalır), Bağırsak Torsiyonu/Volvulusu (tüm abdomen gerilir, kanlı dışkı vardır), Perfore Abomasum Ülseri (akut yaygın peritonit ve lökopeni görülür).",
+      "tedavi_protokolu": "1) Acil Abomasal Dekompresyon (En Hayati): Buzağı sol yan yatış pozisyonundayken sağ karın alt duvarından (sağ kosta yayının hemen gerisinden) 14-16G kalın bir branül veya trokar ile perkütan ponksiyon yapılarak abomasumdaki gaz ve pis kokulu sıvı acilen boşaltılmalıdır. 2) Antibiyotik Sağaltımı: Klostridiyal ve anaerobik etkenlere karşı yüksek doz Kristalize Penisilin G veya Ampisilin, oral neomisin. 3) Masif Sıvı Sağaltımı: Ağır laktik asidozu düzeltmek için İV Sodyum Bikarbonatlı izotonik sıvılar. 4) Oral besleme en az 24 saat tamamen durdurulmalıdır.",
+      "kirmizi_hat": "ÖLÜMCÜL HATA: Buzağıya rumen sondası (özefagus sondası) takıp gazı boşaltmaya çalışmak tamamen etkisizdir; çünkü gaz ön midede değil abomasumdadır! Sonda ile vakit kaybedilirse abomasum dakikalar içinde rüptüre olur ve buzağı ölür.",
+      "koruma_biyogüvenlik": "Buzağı beslemede sütler mutlaka vücut sıcaklığında (38-39 °C) verilmeli, öğün başına süt miktarı buzağı ağırlığının %5'ini aşmamalı, mama osmolalitesi hassas ayarlanmalı ve buzağıların hızlı süt içmesini engelleyen emzikli kovalar kullanılmalıdır."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "süt",
+          "soğuk süt",
+          "buzağı maması",
+          "mama",
+          "süt ikame yemi",
+          "biberon",
+          "kova",
+          "aşırı süt",
+          "hızlı içme",
+          "öğün"
+        ],
+        "content": "Günde 2 öğün beslenen buzağıya akşam öğününde 3.5 litre soğuk hazırlanmış kalitesiz buzağı maması hızla içirilmiş."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak Koşulları",
+        "keywords": [
+          "kulübe",
+          "buzağı kulübesi",
+          "barınak",
+          "hijyen",
+          "kova temizliği"
+        ],
+        "content": "Bireysel buzağı kulübesi; kova ve emzik hijyeni yetersiz."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "yaş",
+          "buzağı",
+          "holştayn",
+          "erkek buzağı",
+          "haftalık",
+          "ishal geçmişi"
+        ],
+        "content": "21 günlük erkek Holştayn buzağı; daha önce hafif besinsel ishal geçirmiş."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Genel Durum",
+        "keywords": [
+          "iştah",
+          "emme",
+          "mama sonrası",
+          "sancı",
+          "karın ağrısı",
+          "inleme",
+          "debelenme",
+          "ayağını karnına vurma",
+          "diş gıcırdatma",
+          "şok",
+          "çökme"
+        ],
+        "content": "Mama sonrası şiddetli karın ağrısı ile debeleniyor, ayağını karnına vuruyor, ardından yan yatıp inlemeye başladı."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "sıcaklık",
+          "hipotermi",
+          "soğuma",
+          "nabız",
+          "kalp frekansı",
+          "taşikardi",
+          "filiform nabız",
+          "solunum",
+          "solunum sayısı",
+          "dispne",
+          "yüzlek solunum",
+          "mukozalar",
+          "siyanoz",
+          "kapillar dolum",
+          "crt",
+          "şok"
+        ],
+        "content": "Rektal Sıcaklık: 37.6 °C (Şoka bağlı hipotermi) | Nabız: 145 atım/dk (Şiddetli taşikardi, zayıf periferik nabız) | Solunum: 65 nefes/dk (Yüzlek ve aşırı dispneik - diyafram basısı) | Mukozalar: Kirli siyanotik ve kapillar dolum süresi > 3.5 saniye."
+      },
+      "FIZIKSEL_OSKULTASYON": {
+        "name": "Fiziksel Muayene ve Oskültasyon Bulguları",
+        "keywords": [
+          "fiziksel muayene",
+          "muayene",
+          "perküsyon",
+          "oskültasyon",
+          "karın şişliği",
+          "sağ karın",
+          "sağ karın şişkinliği",
+          "asimetrik karın",
+          "davul sesi",
+          "timpanik ses",
+          "çalkantı",
+          "çalkantı sesi",
+          "rumen basıklığı",
+          "gerginlik"
+        ],
+        "content": "Karnın sağ ventral ve lateral duvarı aşırı gergin ve asimetrik olarak dışa doğru kubbeleşmiş; sağ 8-12. kaburgalar üzerinde perküsyonda yüksek rezonant davul sesi, sallandığında bol sıvı çalkantısı duyuldu; sol karın (rumen) ise tamamen normal basıklıkta."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "hematokrit",
+          "hemoglobin",
+          "lökopeni",
+          "lökosit düşüklüğü",
+          "çomak",
+          "sol kayma",
+          "toksik nötrofil",
+          "toksik granülasyon",
+          "hemokonsantrasyon"
+        ],
+        "content": "RBC: 10.4 x10⁶/µL | Hb: 15.6 g/dL | PCV: %47 (Şiddetli hemokonsantrasyon ve şok) | WBC: 4.1 x10³/µL (Lökopeni - endotoksin tüketimi) | Çomak Nötrofil: %24 (Dejeneratif sol kayma ve toksik granülasyon)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "glukoz",
+          "kan şekeri",
+          "hipoglisemi",
+          "bun",
+          "üre",
+          "kreatinin",
+          "potasyum",
+          "k",
+          "hiperkalemi",
+          "klor",
+          "cl"
+        ],
+        "content": "Serum Glikozu: 35 mg/dL (Ağır hipoglisemi) | BUN: 38 mg/dL | Serum Kreatinin: 2.6 mg/dL (Prerenal azotemi) | Serum Potasyumu: 5.8 mEq/L (Hiperkalemi - asidoza sekonder) | Serum Kloru: 86 mEq/L (Düşük)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı ve Asit-Baz Analizi",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "asit baz",
+          "ph",
+          "kan ph",
+          "asidoz",
+          "laktik asidoz",
+          "ağır asidoz",
+          "hco3",
+          "bikarbonat",
+          "be",
+          "baz açığı",
+          "laktat",
+          "l-laktat"
+        ],
+        "content": "Venöz pH: 7.12 (Ağır Dekompanse Laktik Asidoz) | Venöz HCO3⁻: 11.2 mmol/L (Şiddetli azalmış) | Venöz BE: -16.5 mmol/L (Masif baz açığı) | L-Laktat: 9.8 mmol/L (Aşırı artmış - abomasal iskemi ve endotoksemik şok)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "idrar ph",
+          "asidik idrar",
+          "oligüri",
+          "anüri",
+          "protein"
+        ],
+        "content": "Şoka bağlı oligüri/anüri; kateterle alınan birkaç damla idrarda pH: 5.0 | Protein: ++."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Tanısal Abomino-Sententez ve Mikrobiyoloji",
+        "keywords": [
+          "özel test",
+          "parasentez",
+          "abomasum ponksiyonu",
+          "karın ponksiyonu",
+          "gaz çıkışı",
+          "abomasum sıvısı",
+          "mikroskopi",
+          "boyama",
+          "gram boyama",
+          "sarcina",
+          "sarcina ventriculi",
+          "bakteri"
+        ],
+        "content": "Sağ karın duvarından yapılan perkütan ponksiyonda fışkırarak yoğun kükürtlü gaz ve pis kokulu kahverengi fermente süt sıvısı boşaldı; sıvının direkt mikroskobisinde paketler halinde Gram-pozitif karakteristik 'Sarcina ventriculi' morfolojisi izlendi."
+      }
+    }
+  },
+  "Vaka 5 —(M10_V5)": {
+    "kod": "M10_V5",
+    "sikayet": "Doğumdan 20 gün sonra yüksek verimli süt ineğinde aniden sağ karın duvarının şişmesi, karnını tekmeleyerek şiddetli sancı göstermesi, ardından birkaç saat içinde sancının aniden bıçak gibi kesilip derin bir halsizlik, gözlerde çökme, kulaklarda soğuma,ve koma haline girmesi.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Sağa Abomasum Volvulusu ve Torsiyonu (RDA / Abomasal Volvulus)",
+      "patofizyoloji": "Abomasumun sağ karın duvarında gazla dilate olmasını takiben kendi mezenterik ve omazo-abomazal ekseni etrafında 180 ila 360 derece dönmesidir (volvulus). Bükülme sonucu omazo-abomazal damarlar tamamen boğulur; venöz dönüş durur, abomasum duvarında masif hemorajik enfarktüs, gangrenöz nekroz ve transmural bakteri/toksin sızması şekillenir. Başlangıçta HCl sekestrasyonu nedeniyle gelişen hipokloremik alkaloz, volvulusla birlikte bağırsak ve abomasum duvarındaki şiddetli doku hipoksisi sonucu aniden **ağır dekompanse metabolik laktik asidoza** evrilir. Vagus sinirinin dalları hasar görür; endotoksik şok ve kardiyovasküler kollaps gelişir.",
+      "ayirici_tani": "Sola Abomasum Deplasmanı (LDA - ses soldadır, doku nekrozu ve şok gelişmez), Çekum Torsiyonu (ping sesi sağ açlık çukurunun arkasındadır, rektal muayenede çekum apeksi palpe edilir), Akut Peritonit (geniş timpanik ping sesi yoktur, tahta karın vardır).",
+      "tedavi_protokolu": "1) Acil Cerrahi Müdahale (Dakikalar İçinde Hayati): Sağ fossa paralumbalis laparotomisi. Volvule olmuş abomasumun gazı ve hemorajik içeriği kalın bir hortumla boşaltılarak dekomprese edilmeli, ardından organ dikkatlice saat yönünün tersine çevrilerek detorsiyon yapılmalı ve omentopeksi ile sağ karın duvarına tespit edilmelidir. Duvar tamamen nekroze ise prognoz fataldir. 2) Masif Sıvı ve Asit-Baz Desteği: İzotonik %0.9 NaCl ve gereğinde bikarbonat, kalsiyum infüzyonları. 3) Preoperatif Flunixin meglumine (endotoksemi kontrolü). 4) Geniş spektrumlu parenteral antibiyotik.",
+      "kirmizi_hat": "ÖLÜMCÜL YANILGI: Hayvanın sancısının aniden durmasını 'iyileşiyor' sanıp cerrahiyi ertelemek hastanın ölüm fermanıdır! Ağrının kesilmesi, abomasum duvarındaki duyusal sinirlerin iskemik nekrozla öldüğünün ve organın rüptüre olmak üzere olduğunun kanıtıdır.",
+      "koruma_biyogüvenlik": "Basit sağ abomasum dilatasyonları tespit edildiği anda derhal müdahale edilmeli, volvulusa dönmesine izin verilmemelidir. Geçiş dönemi besleme yönetimi optimize edilmelidir."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "kesif yem",
+          "konsantre yem",
+          "tahıl",
+          "mısır silajı",
+          "kaba yem lifi"
+        ],
+        "content": "Doğum sonrası aşırı konsantre yem ve mısır silajı; kaba yem lif uzunluğu yetersiz."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak Koşulları",
+        "keywords": [
+          "ahır",
+          "barınak",
+          "bağlı durak",
+          "revir"
+        ],
+        "content": "Bireysel bağlı durak."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "sürü",
+          "yaş",
+          "ırk",
+          "holştayn",
+          "laktasyon",
+          "buzağılama",
+          "doğum",
+          "süt verimi"
+        ],
+        "content": "5 yaşında Holştayn; 20 gün önce doğum yapmış; dünde beri hafif iştahsızken bugün aniden çökmüş."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Durgunluk",
+        "keywords": [
+          "iştah",
+          "iştahsızlık",
+          "anoreksi",
+          "tam anoreksi",
+          "sancı",
+          "karın ağrısı",
+          "sancının durması",
+          "ağrının kesilmesi",
+          "diş gıcırdatma",
+          "durgunluk",
+          "somnolans",
+          "stupor",
+          "koma",
+          "şok"
+        ],
+        "content": "Tam anoreksi; çevreye tamamen duyarsız (koma hali); inatçı diş gıcırdatma."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "sıcaklık",
+          "hipotermi",
+          "soğuma",
+          "nabız",
+          "kalp frekansı",
+          "taşikardi",
+          "filiform nabız",
+          "zayıf nabız",
+          "solunum",
+          "solunum sayısı",
+          "polipne",
+          "mukozalar",
+          "enoftalmus",
+          "çökük göz",
+          "soğuk kulak",
+          "uçlarda soğuma",
+          "dehidrasyon"
+        ],
+        "content": "Rektal Sıcaklık: 37.8 °C (Hipotermi) | Nabız: 128 atım/dk (Şiddetli taşikardi, filiform zayıf nabız) | Solunum: 46 nefes/dk (Polipneik) | Gözler: 6-8 mm enoftalmus (Ağır dehidrasyon) | Kulak ve bacaklar buz gibi soğuk."
+      },
+      "FIZIKSEL_OSKULTASYON": {
+        "name": "Fiziksel Muayene ve Oskültasyon Bulguları",
+        "keywords": [
+          "fiziksel muayene",
+          "muayene",
+          "oskültasyon",
+          "perküsyon",
+          "ping",
+          "ping sesi",
+          "çelik çınlaması",
+          "tınlama",
+          "sağ karın",
+          "sağ 9-13 kaburga",
+          "kaburga",
+          "geniş ping",
+          "devasa ping",
+          "çalkantı",
+          "çalkantı sesi",
+          "rektal muayene"
+        ],
+        "content": "Sağ karın duvarında, 9-13. interkostal aralıkta kürek kemiği-dirsek hattından başlayıp açlık çukuruna kadar uzanan devasa bir alanda yüksek perdeli madeni çelik çınlaması ('Ping' sesi) ve kuvvetli sıvı çalkantı sesi duyuldu; rektal muayenede organ ele gelmedi."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "hematokrit",
+          "hemoglobin",
+          "lökopeni",
+          "çomak",
+          "sol kayma",
+          "toksik nötrofil",
+          "fibrinojen",
+          "hemokonsantrasyon"
+        ],
+        "content": "RBC: 9.8 x10⁶/µL | Hb: 15.1 g/dL | PCV: %50 (Şiddetli dehidrasyon ve hemokonsantrasyon) | WBC: 3.9 x10³/µL (Lökopeni - endotoksik şok tüketimi) | Çomak Nötrofil: %18 (Toksik granülasyonlu sol kayma) | Fibrinojen: 680 mg/dL (Belirgin artmış)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "elektrolit",
+          "klor",
+          "cl",
+          "serum kloru",
+          "potasyum",
+          "k",
+          "ast",
+          "bun",
+          "üre",
+          "kreatinin",
+          "prerenal azotemi"
+        ],
+        "content": "Serum Kloru: 72 mEq/L (Aşırı azalmış / Ref: 95-110 mEq/L) | Serum Potasyumu: 2.6 mEq/L (Şiddetli azalmış) | BUN: 52 mg/dL (Artmış - Prerenal azotemi) | Serum Kreatinin: 2.8 mg/dL | AST: 290 U/L (Artmış)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı ve Asit-Baz Analizi",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "asit baz",
+          "ph",
+          "kan ph",
+          "asidoz",
+          "laktik asidoz",
+          "ağır asidoz",
+          "hco3",
+          "bikarbonat",
+          "be",
+          "baz açığı",
+          "laktat",
+          "l-laktat",
+          "doku nekrozu",
+          "kangren"
+        ],
+        "content": "Venöz pH: 7.22 (Ağır Dekompanse Metabolik Laktik Asidoz) | Venöz HCO3⁻: 15.2 mmol/L (Ağır azalmış) | Venöz BE: -12.8 mmol/L | L-Laktat: 7.8 mmol/L (Aşırı artmış / Normal: <2.0 mmol/L - Masif abomasal doku kangreni ve peritonit)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "idrar ph",
+          "asit idrar",
+          "oligüri",
+          "anüri",
+          "protein",
+          "keton"
+        ],
+        "content": "Ağır oligüri; idrar pH: 5.5 | Protein: ++ | Keton: ++."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Ultrasonografi ve Laparotomi Bulguları",
+        "keywords": [
+          "özel test",
+          "görüntüleme",
+          "ultrason",
+          "usg",
+          "abomasum duvarı",
+          "duvar kalınlığı",
+          "abomasum ödemi",
+          "amfizem",
+          "karın içi sıvı",
+          "periton sıvısı",
+          "laparotomi"
+        ],
+        "content": "Sağ abdominal ultrasonografide abomasum duvar kalınlığı 12 mm'ye ulaşmış (ağır ödem), duvar içinde amfizem odakları ve karın boşluğunda sero-fibrinöz serbest sıvı görüntülendi."
+      }
+    }
+  },
+  "Vaka 6 — Akşam Sağlıklı Yatan, Sabah Opistotonus, Çırpınma ve Ağır Glukozüri ile Ölen Besi Tosunu (M10_V6)": {
+    "kod": "M10_V6",
+    "sikayet": "Besiye yeni alınan ve hızlı kilo alması için yoğun arpa ezmesi ile beslenen 6 aylık Merinos kuzuda akşam yemini iştahla yemesine rağmen sabah ağılda yan yatmış, başını sırtına doğru geriye bükmüş (opistotonus), bacaklarında şiddetli pedallama/çırpınma hareketleri, diş gıcırdatma, ağızdan köpüklü salya gelmesi ve koma nöbeti.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Enterotoksemi (Yumuşak Böbrek Hastalığı / Pulpy Kidney Disease — Clostridium perfringens Tip D)",
+      "patofizyoloji": "Rasyonda ani tahıl artışı sonucu ince bağırsağa geçen sindirilmemiş nişasta, normal bağırsak florasında az miktarda bulunan *Clostridium perfringens* Tip D bakterisinin patlayıcı şekilde çoğalmasına neden olur. Bakteri lümende inaktif bir **Epsilon prototoksini** üretir. Bağırsaktaki tripsin enzimi bu prototoksini parçalayarak son derece ölümcül aktif **Epsilon toksinine** dönüştürür. Toksin bağırsak mukozal geçirgenliğini bozar ve hızla kana emilir (toksemi). Vasküler endotel hücrelerinde masif hasar yaratarak kan-beyin bariyerini yıkar ve sitotoksik beyin ödemi oluşturur (opistotonus, konvülsiyonlar). Aynı zamanda karaciğer glikojen depolarını hızla glikoza parçalayarak ağır hiperglisemi ve böbrek eşiğini aşan masif glukozüriye yol açar; böbrek tübüllerinde hızla kortikal otoliz ve nekroz (yumuşak böbrek) şekillenir.",
+      "ayirici_tani": "Polioensefalomalazi (PEM - idrarda glukoz negatiftir, tiamine yanıt verir), Tetanus (üçüncü göz kapağı prolapsusu vardır, bilinç açıktır), Akut Kurşun Zehirlenmesi (kortikal körlük ve böğürme ön plandadır), Kuduz (salivasyon ve saldırganlık vardır, glukozüri görülmez).",
+      "tedavi_protokolu": "Hastalık hiperakut seyrettiğinden klinik semptomlar başladığında başarı şansı çok düşüktür (%100'e yakın mortalite). Erken fark edilen olgularda: 1) Acil C. perfringens Tip D Hiperimmün Antiserumu (50-100 mL İV/SC). 2) Antibiyotik: Yüksek doz Kristalize Penisilin G. 3) Beyin Ödemi Kontrolü: Mannitol veya Deksametazon. 4) Rasyonun derhal kaba yeme çekilmesi.",
+      "koruma_biyogüvenlik": "En kritik basamak aşılamadır: Tüm kuzu ve tosunlara besiye girmeden önce karma Klostridyal aşı (özellikle Tip D içeren 7'li veya 8'li aşılar) uygulanmalı, 21 gün sonra rapeli yapılmalıdır. Rasyondaki tahıl geçişleri en az 14 güne yayılarak kademeli yapılmalıdır."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "besi yemi",
+          "konsantre yem",
+          "arpa",
+          "arpa kırması",
+          "tahıl",
+          "ani yem artışı",
+          "nişasta",
+          "aşırı yem"
+        ],
+        "content": "Meradan çıkarılıp doğrudan yoğun arpa kırması ve fabrika besi yemi ile beslenmeye başlanmış; aşılama yapılmamış."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak Koşulları",
+        "keywords": [
+          "ağıl",
+          "barınak",
+          "besi padoku",
+          "kapalı ağıl"
+        ],
+        "content": "Hızlı besi yapılan kapalı yoğun besi ünitesi."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "sürü",
+          "yaş",
+          "tosun",
+          "kuzu",
+          "merinos",
+          "besi",
+          "ani ölüm",
+          "toplu ölüm",
+          "aşısız",
+          "aşı kaydı",
+          "semiz kuzu"
+        ],
+        "content": "6 aylık Merinos; sürüde son 3 günde en iyi gelişen, en iri 2 kuzu daha benzer şekilde aniden ölü bulunmuş."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah ve Nörolojik Kriz",
+        "keywords": [
+          "iştah",
+          "ani çökme",
+          "koma",
+          "bilinç kaybı",
+          "çırpınma",
+          "nöbet",
+          "diş gıcırdatma",
+          "salya",
+          "köpüklü salya"
+        ],
+        "content": "Bilinç tamamen kapalı (koma); sürekli çene kilitlenmesi, salya akıntısı ve istemsiz bacak kasılmaları."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "sıcaklık",
+          "hipertermi",
+          "nabız",
+          "kalp frekansı",
+          "taşikardi",
+          "solunum",
+          "solunum sayısı",
+          "hırıltılı solunum",
+          "pupillalar",
+          "midriyazis",
+          "geniş gözbebeği",
+          "ışık refleksi"
+        ],
+        "content": "Rektal Sıcaklık: 40.5 °C (Şiddetli kasılmalara bağlı hipertermi) | Nabız: 140 atım/dk (Taşikardi) | Solunum: 55 nefes/dk (Hırıltılı ve köpüklü) | Pupillalar: İki taraflı midriyatik ve ışık refleksi az."
+      },
+      "NOROLOJIK_KAS_MUAYENESI": {
+        "name": "Nöromüsküler Muayene Bulguları",
+        "keywords": [
+          "nöroloji",
+          "nörolojik muayene",
+          "sinir sistemi",
+          "kas muayenesi",
+          "opistotonus",
+          "başın geriye bükülmesi",
+          "çırpınma",
+          "pedallama",
+          "yüzme hareketleri",
+          "konvülsiyon",
+          "nöbet",
+          "kramp",
+          "tetanik kasılma",
+          "rijidite",
+          "hiperestezi",
+          "trismus",
+          "çene kilitlenmesi"
+        ],
+        "content": "Lateral yatışta baş ve boyun omurgaya doğru aşırı geriye bükülmüş (şiddetli opistotonus); dört bacak kaskatı gergin ve aralıklı hızlı yüzme/pedallama hareketleri; hiperestezi mevcut."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "hematokrit",
+          "hemoglobin",
+          "lökositoz",
+          "hemokonsantrasyon"
+        ],
+        "content": "RBC: 11.8 x10⁶/µL | Hb: 16.2 g/dL | PCV: %48 (Aşırı hemokonsantrasyon ve endotoksik şok) | WBC: 14.8 x10³/µL (Lökositoz)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "glukoz",
+          "kan şekeri",
+          "kan glukozu",
+          "hiperglisemi",
+          "masif hiperglisemi",
+          "bun",
+          "üre",
+          "kreatinin",
+          "ast",
+          "potasyum",
+          "k",
+          "hiperkalemi"
+        ],
+        "content": "Serum Glikozu: 295 mg/dL (Hiperglisemi / Ref: 50-75 mg/dL - Epsilon toksini kaynaklı) | BUN: 58 mg/dL (Aşırı artmış) | Serum Kreatinin: 3.8 mg/dL (Akut renal hasar) | AST: 320 U/L | Potasyum: 6.2 mEq/L (Hiperkalemi)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "asit baz",
+          "ph",
+          "asidoz",
+          "laktik asidoz",
+          "hco3",
+          "bikarbonat",
+          "laktat"
+        ],
+        "content": "Venöz pH: 7.10 (Şiddetli Dekompanse Laktik Asidoz) | Venöz HCO3⁻: 10.5 mmol/L | L-Laktat: 11.5 mmol/L (Aşırı yüksek)."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili ve Glukozüri (Patognomonik İpucu)",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "idrar testi",
+          "strip",
+          "glukoz",
+          "glikoz",
+          "idrar glikozu",
+          "glukozüri",
+          "idrarda şeker",
+          "şeker testi",
+          "protein",
+          "proteinüri"
+        ],
+        "content": "İdrar Strip Testi: Glikoz: ++++ (>500 mg/dL - Koyu kahverengi/yeşil renk değişimi) | Protein: +++ | Keton: Negatif."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Nekropsi ve Toksin Tespiti",
+        "keywords": [
+          "özel test",
+          "otopsi",
+          "nekropsi",
+          "böbrek muayenesi",
+          "yumuşak böbrek",
+          "pulpy kidney",
+          "böbrek otolizi",
+          "perikardiyal sıvı",
+          "toksin analizi",
+          "elisa",
+          "epsilon toksini",
+          "clostridium perfringens"
+        ],
+        "content": "Ölen hayvanın nekropsisinde: Böbrek parankiminin parmakla dokunulduğunda ezilecek kıvamda yumuşamış ve hamurlaşmış olduğu görüldü (Yumuşak Böbrek / Pulpy Kidney); perikard içinde fibrinli sıvı birikimi."
+      }
+    }
+  },
+  "Vaka 7 — Dudak ve Dilde Ağır Ödem, Koronitis ve Şiddetli Topallık Merinos Koç (M10_V7)": {
+    "kod": "M10_V7",
+    "sikayet": "Sonbahar başlangıcında meradan dönen 2 yaşındaki damızlık Merinos koçta aniden başlayan 41.5 °C yüksek ateş, aşırı durgunluk, burun ve ağızdan bol seröz-müköz akıntı, dudaklarda, yüzde ve çene altında aşırı ödemli şişkinlik,ağız çevresinde ve dilde yaralar , tırnak diplerinde kızarıklık ve ayaklarını basamayarak dizleri üzerinde yürüme.",
+    "egitmen_bilgisi": {
+      "kesin_tani": "Mavi Dil (Bluetongue Virus - BTV / Vektörel Reoviridae Enfeksiyonu)",
+      "patofizyoloji": "*Culicoides* cinsi tatarcık sinekleri (vektör) tarafından bulaştırılan çift iplikli bir RNA orbivirüsüdür. Virüs primer olarak vasküler endotel hücrelerini ve mononükleer fagositleri enfekte eder. Endotel harabiyeti yaygın mikrovasküler tromboz, damar geçirgenliğinde masif artış, yaygın doku ödemi ve iskemik nekroza yol açar. Ağız mukozasında ve dilde oluşan şiddetli vasküler tromboz ve venöz göllenme dilin hipoksik kalarak siyanotik mor-mavi renk almasına ('Mavi Dil') neden olur. Tırnak koroner bandındaki endotel hasarı (koronitis) tırnak matriksinde şiddetli ağrı, topallık ve tırnak düşmesine yol açar; iskelet ve kalp kası liflerinde nekroz gelişir.",
+      "ayirici_tani": "Şap Hastalığı (FMD - veziküller ve büller patlar, dil morarmaz, epitel soyulur), Bulaşıcı Ektima / Orf (dudaklarda kabuklu ve siğilimsi lezyonlar vardır, sistemik vaskülit ve ödem yapmaz), Koyun Çiçeği (tüm deride papül ve nodüller vardır), Malignant Catarrhal Fever (MCF - sığırlarda korneal opasite ile seyreder).",
+      "tedavi_protokolu": "Spesifik bir antiviral ilacı yoktur. İhbarı mecburi hastalıktır. 1) Semptomatik ve Destekleyici Tedavi: Vasküler yangıyı ve ağrıyı baskılamak için NSAİİ (Flunixin meglumine veya Meloksikam). 2) Sekonder Bakteriyel Enfeksiyon Kontrolü: Geniş spektrumlu antibiyotikler (Oksitetrasiklin veya Amoksisilin). 3) Yumuşak, sulu yemlerle besleme ve gölge, serin alanda istirahat. 4) Ağız lezyonlarına antiseptik gargaralar.",
+      "koruma_biyogüvenlik": "İhbarı mecburi bir hastalıktır; şüpheli olgular derhal Tarım ve Orman Bakanlığı il/ilçe müdürlüklerine bildirilmelidir. Vektör mücadelesi (Culicoides sineklerinin aktif olduğu alacakaranlık saatlerde hayvanların kapalı sineklikli ağıllarda tutulması, insektisit uygulamaları) ve riskli bölgelerde inaktif/zayıflatılmış BTV aşılaması uygulanmalıdır."
+    },
+    "categories": {
+      "RASYON_YEM": {
+        "name": "Rasyon ve Besleme Geçmişi",
+        "keywords": [
+          "rasyon",
+          "yem",
+          "besleme",
+          "otlatma",
+          "mera",
+          "dere kenarı",
+          "sulak alan"
+        ],
+        "content": "Dere yatağı ve bataklık kenarındaki sulak meralarda otlatılmış."
+      },
+      "LOKASYON_BARINAK": {
+        "name": "Barınak ve Çevre Koşulları",
+        "keywords": [
+          "ağıl",
+          "barınak",
+          "açık ağıl",
+          "dere",
+          "tatarcık",
+          "tatarcık sineği",
+          "culicoides",
+          "sinek",
+          "vektör",
+          "sineklik"
+        ],
+        "content": "Açık ağıl; dereye yakın, tatarcık ve sivrisinek yoğunluğu çok yüksek bölge."
+      },
+      "GECMIS_HASTALIK": {
+        "name": "Sürü Geçmişi ve Anamnez",
+        "keywords": [
+          "anamnez",
+          "özgeçmiş",
+          "sürü",
+          "yaş",
+          "ırk",
+          "merinos",
+          "koç",
+          "damızlık",
+          "sürüde yayılma",
+          "benzer vakalar",
+          "aşısız",
+          "aşı kaydı",
+          "mevsim",
+          "sonbahar"
+        ],
+        "content": "2 yaşında damızlık Merinos koç; sürüde benzer şekilde yüzü şişen ve topallayan 4 koyun daha var; aşı kaydı yok."
+      },
+      "ISTAH_DURUMU": {
+        "name": "İştah, Çiğneme ve Yutkunma",
+        "keywords": [
+          "iştah",
+          "iştahsızlık",
+          "anoreksi",
+          "yem yememe",
+          "disfaji",
+          "yutma güçlüğü",
+          "ağrı",
+          "salya",
+          "salivasyon",
+          "koyu salya"
+        ],
+        "content": "Ağız ve dilindeki şiddetli ağrı ve ödem nedeniyle yem yemeyi tamamen bırakmış; sürekli koyu salya akıntısı."
+      },
+      "VITAL_BULGULAR": {
+        "name": "Klinik Vital Bulgular",
+        "keywords": [
+          "vital",
+          "vital bulgular",
+          "ateş",
+          "yüksek ateş",
+          "sıcaklık",
+          "41 derece",
+          "nabız",
+          "kalp frekansı",
+          "taşikardi",
+          "solunum",
+          "solunum sayısı",
+          "hırıltı",
+          "burun akıntısı",
+          "akıntı",
+          "mukopürülan akıntı",
+          "ödem",
+          "yüz ödemi"
+        ],
+        "content": "Rektal Sıcaklık: 41.5 °C (Aşırı yüksek ateş) | Nabız: 118 atım/dk | Solunum: 42 nefes/dk (Hırıltılı) | Burun deliklerinde kurutlu mukopürülan akıntı | Yüz, dudaklar ve intermandibuler sahada yaygın ödem."
+      },
+      "FIZIKSEL_LEZYON_MUAYENESI": {
+        "name": "Ağız, Dil ve Tırnak Lezyonları (Patognomonik)",
+        "keywords": [
+          "lezyon",
+          "fiziksel muayene",
+          "ağız muayenesi",
+          "dil",
+          "mavi dil",
+          "mor dil",
+          "siyanotik dil",
+          "dil şişmesi",
+          "dudak ödemi",
+          "yüz ödemi",
+          "çene altı ödemi",
+          "ağız erozyonu",
+          "ülser",
+          "koronitis",
+          "koroner bant",
+          "tırnak",
+          "tırnak yangısı",
+          "topallık",
+          "ayak ağrısı",
+          "diz çökme",
+          "dizleri üzerinde durma",
+          "yürüme güçlüğü"
+        ],
+        "content": "Dudak ve yanak mukozasında hiperemi ve ülseratif erozyonlar; dil ileri derecede ödemli ve büyümüş; tırnakların koroner bant hattında yoğun kırmızı-mor yangı halkası (koronitis); hayvan ayakta duramıyor, dizleri üzerinde emekleyerek duruyor."
+      },
+      "HEMOGRAM": {
+        "name": "Tam Hemogram (CBC)",
+        "keywords": [
+          "hemogram",
+          "cbc",
+          "tam kan",
+          "kan tahlili",
+          "wbc",
+          "rbc",
+          "pcv",
+          "lökopeni",
+          "lökosit düşüklüğü",
+          "lenfosit",
+          "lenfopeni",
+          "trombosit",
+          "plt",
+          "trombositopeni",
+          "kan pulcukları"
+        ],
+        "content": "RBC: 8.2 x10⁶/µL | Hb: 10.4 g/dL | PCV: %31 | WBC: 2.8 x10³/µL (Ağır Lökopeni - Viral tüketim) | Lenfosit: %32 (Belirgin Lenfopeni) | Trombosit: 85 x10³/µL (Trombositopeni - endotelyal tüketim koagülopatisi)."
+      },
+      "BIYOKIMYA_PANELI": {
+        "name": "Serum Biyokimyası Paneli",
+        "keywords": [
+          "biyokimya",
+          "serum biyokimyası",
+          "tahlil",
+          "ck",
+          "kreatin kinaz",
+          "kas enzimi",
+          "ast",
+          "ldh",
+          "albümin",
+          "protein",
+          "hipoalbüminemi"
+        ],
+        "content": "Kreatin Kinaz (CK): 1.450 U/L (Artmış - İskelet ve kalp kası nekrozu) | AST: 280 U/L (Artmış) | LDH: 890 U/L | Albümin: 2.2 g/dL (Damar geçirgenliği artışına bağlı ödem sıvısına protein kaçağı)."
+      },
+      "KAN_GAZI": {
+        "name": "Venöz Kan Gazı",
+        "keywords": [
+          "kan gazı",
+          "venöz kan gazı",
+          "ph",
+          "hco3",
+          "laktat",
+          "hipoksi"
+        ],
+        "content": "Venöz pH: 7.32 | Venöz HCO3⁻: 20.0 mmol/L | L-Laktat: 2.8 mmol/L."
+      },
+      "IDRAR_TAHLILI": {
+        "name": "Tam İdrar Tahlili",
+        "keywords": [
+          "idrar",
+          "idrar tahlili",
+          "protein",
+          "proteinüri"
+        ],
+        "content": "Protein: ++ (Vasküler glomerüler sızıntı) | Keton: Negatif | Bilirubin: Negatif."
+      },
+      "OZEL_TESTLER_GORUNTULEME": {
+        "name": "Virolojik ve Moleküler Doğrulama (Altın Standart)",
+        "keywords": [
+          "özel test",
+          "viroloji",
+          "pcr",
+          "rt-pcr",
+          "btv pcr",
+          "virüs tespiti",
+          "moleküler test",
+          "bluetongue",
+          "orbivirus",
+          "ihbarı mecburi"
+        ],
+        "content": "."
+      }
+    }
+  }
+}
